@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuerdame Perfumes</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="/img/logo.png" alt="Logo" onclick="location.href='/index.html'"">
+            <h1>Recuérdame Perfumes</h1>
+        </div>
+        <button id="abrir" class="abrir-menu">Menú</i></button>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar">Cerrar</i></button>
+                <ul class="nav-list">
+                    <li><a href="/catalogos/hombre.html">Catálogo Masculino</a></li>
+                    <li><a href="/catalogos/mujer.html">Catálogo Femenino</a></li>
+                    <li><a href="/catalogos/nicho.html" class="active">Catálogo Nicho</a></li>
+                    <li><a href="/precios/precios.html">Precios</a></li>
+                    <li><a href="promociones.html">Promociones</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="carousel">
+                <div class="carousel-slide active" style="background-image: url('/img/img2.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('/img/img3.jpg');"></div>
+                <div class="carousel-slide" style="background-image: url('/img/img1.jpg');"></div>
+            </div>
+            <div class="hero-content">
+                <h2>Encuentra tu esencia perfecta</h2>
+                <p>Explora nuestros precios</p>
+                <button onclick="location.href='../precios/precios.html'">Ir a Precios</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>Contacto: +56 9 1234 5678 | contacto@recuerdame.cl</p>
+            <p>Dirección: Av. Principal 1234, Ciudad, Chile</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Perfumería Local. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+.precio-title {
+    text-align: center;
+    color: #333;
+}
+
+.main-container-precios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+}
+
+.bg-tittle {
+    background-size: cover;
+    background-position: center;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    background-color: white;
+}
+
+.bg-tittle::before {
+    border-radius: 7px;
+    background-image: url("/img/designer-normal.jpg");
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.35;
+    mix-blend-mode: multiply;
+}
+
+.diseñador-normal,
+.diseñador-extracto,
+.nicho-normal,
+.nicho-extracto {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 270px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.diseñador-normal:hover,
+.diseñador-extracto:hover,
+.nicho-normal:hover,
+.nicho-extracto:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
