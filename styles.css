@@ -75,9 +75,6 @@ nav ul li:hover {
 .nav-list a.active {
     color: #fff; 
     text-decoration: underline;
-    border-radius: 5px;
-    font-weight: bold; 
-    text-transform: uppercase; 
 }
 
 .nav-list li a {
