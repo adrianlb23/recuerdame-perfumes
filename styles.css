@@ -57,6 +57,10 @@ nav ul li {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+nav ul li .active{
+    color: #333;
+}
+
 nav ul li:hover {
     transform: scale(1.1);
     color: #ddd;
@@ -66,6 +70,14 @@ nav ul li:hover {
     list-style-type: none;
     display: flex;
     gap: 1rem;
+}
+
+.nav-list a.active {
+    color: #fff; 
+    text-decoration: underline;
+    border-radius: 5px;
+    font-weight: bold; 
+    text-transform: uppercase; 
 }
 
 .nav-list li a {
@@ -135,6 +147,10 @@ nav ul li:hover {
     .nav-list li a {
         color: #ececec;
     }
+
+    .social-icons a {
+        font-size: 28px;
+    }
 }
 
 button {
@@ -164,22 +180,51 @@ button:hover {
 }
 
 footer {
-    background: #333;
+    background-color: #333;
     color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
-    position: relative;
-    width: 100%;
+    font-family: Arial, sans-serif;
 }
 
-footer .footer-content {
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
-    font-size: 0.9em;
+    padding: 0 20px;
 }
 
-footer .footer-bottom {
-    font-size: 0.8em;
+.contact-info {
+    flex: 1;
+    text-align: left;
 }
+
+.social-icons {
+    flex: 1;
+    text-align: right;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff9800; /* Cambia el color al pasar el cursor */
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #bbb;
+}
+
 
 main {
     flex: 1;
