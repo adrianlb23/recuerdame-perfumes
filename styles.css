@@ -145,6 +145,10 @@ nav ul li:hover {
         color: #ececec;
     }
 
+    footer {
+        font-size: 13px;
+    }
+
     .social-icons a {
         font-size: 28px;
     }
