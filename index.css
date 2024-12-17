@@ -129,6 +129,10 @@ main {
         flex-direction: column;
     }
 
+    .about-map-section .about-us{
+        margin-bottom: 20px;
+    }
+    
     .about-map-section .about-us, 
     .about-map-section .map {
         width: 100%;
