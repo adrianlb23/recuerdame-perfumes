@@ -9,7 +9,7 @@ function showNextSlide() {
 }
 
 // Cambiar la imagen cada 3 segundos
-setInterval(showNextSlide, 3000);
+setInterval(showNextSlide, 5000);
 
 
 //Función de búsqueda tabla nicho
