@@ -31,7 +31,7 @@ body {
 
 .bg-tittle::before {
     border-radius: 7px;
-    background-image: url("/img/designer-normal.jpg");
+    background-image: url("/img/precios.png");
     content: "";
     position: absolute;
     top: 0;
