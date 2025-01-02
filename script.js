@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const perfumeName = row.querySelector("td:nth-child(2)").textContent.toLowerCase();
             const brandName = row.querySelector("td:nth-child(3)").textContent.toLowerCase();
             const genreName = row.querySelector("td:nth-child(4)").textContent.toLowerCase();
-            const matchesSearchTerm = perfumeName.includes(searchTerm) || brandName.includes(searchTerm) || genreName.includes(searchTerm);
+            const typeName = row.querySelector("td:nth-child(5)").textContent.toLowerCase();
+            const matchesSearchTerm = perfumeName.includes(searchTerm) || brandName.includes(searchTerm) || genreName.includes(searchTerm) || typeName.includes(searchTerm);
             row.style.display = matchesSearchTerm ? "" : "none";
         });
     });
@@ -39,7 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const searchTerm = searchInput.value.toLowerCase();
         tableRows.forEach((row) => {
             const perfumeName = row.querySelector("td:nth-child(2)").textContent.toLowerCase();
-            const matchesSearchTerm = perfumeName.includes(searchTerm);
+            const typeName = row.querySelector("td:nth-child(3)").textContent.toLowerCase();
+            const matchesSearchTerm = perfumeName.includes(searchTerm) || typeName.includes(searchTerm);
             row.style.display = matchesSearchTerm ? "" : "none";
         });
     });
