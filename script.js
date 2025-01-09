@@ -11,26 +11,6 @@ function showNextSlide() {
 // Cambiar la imagen cada 3 segundos
 setInterval(showNextSlide, 5000);
 
-
-//Función de búsqueda tabla nicho
-document.addEventListener("DOMContentLoaded", function () {
-    const searchInput = document.getElementById("search-input-nicho");
-    const tableRows = document.querySelectorAll("tbody tr");
-
-    searchInput.addEventListener("input", function () {
-        const searchTerm = searchInput.value.toLowerCase();
-        tableRows.forEach((row) => {
-            const perfumeName = row.querySelector("td:nth-child(2)").textContent.toLowerCase();
-            const brandName = row.querySelector("td:nth-child(3)").textContent.toLowerCase();
-            const genreName = row.querySelector("td:nth-child(4)").textContent.toLowerCase();
-            const typeName = row.querySelector("td:nth-child(5)").textContent.toLowerCase();
-            const matchesSearchTerm = perfumeName.includes(searchTerm) || brandName.includes(searchTerm) || genreName.includes(searchTerm) || typeName.includes(searchTerm);
-            row.style.display = matchesSearchTerm ? "" : "none";
-        });
-    });
-
-});
-
 //Función de búsqueda tabla hombre/mujer
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("search-input");
