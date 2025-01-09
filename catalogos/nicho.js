@@ -12,7 +12,7 @@ class Perfume {
 
 const perfumes = [
     new Perfume(1, "Layton", "Parfums de Marly", "Unisex", "Calido especiado", "Dulce"),
-    new Perfume(2, "Aventus", "Creed", "Hombre", "Frutal", "Amaderado"),
+    new Perfume(2, "Aventus", "Creed", "Hombre", "Frutal", "Citrico"),
     new Perfume(3, "Neroli Portofino", "Tom Ford", "Unisex", "Citrico", "Aromático"),
     new Perfume(4, "Tobacco Vanille", "Tom Ford", "Unisex", "Avainillado", "Dulce"),
     new Perfume(5, "Ombré Leather", "Tom Ford", "Unisex", "Cuero", "Amaderado"),
