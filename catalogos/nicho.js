@@ -50,7 +50,7 @@ const perfumes = [
     new Perfume(37, "Pardon", "Nasomatto", "Hombre", "Calido especiado", "Tabaco"),
     new Perfume(38, "Oriana", "Parfums de Marly", "Mujer", "Dulce", "Frutal"),
     new Perfume(39, "Carmina", "Creed", "Mujer", "Ambarado", "Floral"),
-    new Perfume(40, "Holy Peony", "Christian Dior", "Mujer", "Frutal", "Floral"),
+    new Perfume(40, "Holy Peony", "Dior", "Mujer", "Frutal", "Floral"),
     new Perfume(41, "Oud Wood", "Tom Ford", "Unisex", "Amaderado", "Aromático"),
     new Perfume(42, "The Collection: Courageous Rose", "Hugo Boss", "Unisex", "Fresco especiado", "Floral"),
     new Perfume(43, "Renaissance", "Xerjoff", "Unisex", "Citrico", "Aromático"),
