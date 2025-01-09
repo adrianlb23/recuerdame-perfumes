@@ -213,8 +213,7 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
         const tdMarca = document.createElement('td');
         tdMarca.textContent = perfume.marca;
         tr.appendChild(tdMarca);
-
-
+        
         tbody.appendChild(tr);
     });
 }

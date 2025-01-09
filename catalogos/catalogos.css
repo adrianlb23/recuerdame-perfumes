@@ -140,6 +140,7 @@ tbody tr:hover {
 }
 
 @media screen and (max-width: 550px) {
+
     .nicho-table {
         font-size: 2vh;
     }
