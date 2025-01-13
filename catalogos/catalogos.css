@@ -31,6 +31,62 @@ main h1 {
     margin-top: 10px;
 }
 
+.filter-container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.filter-options label {
+    font-size: 1em;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.filter-options input {
+    transform: scale(1.2);
+}
+
+input[type="radio"]:checked {
+    accent-color: #333; /* Cambia el color del radio seleccionado */
+}
+
+.limpiar-btn {
+    background: none;
+    border: none;
+    color: #888; /* Color sutil */
+    font-size: 0.9em;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.limpiar-btn:hover {
+    color: #333; /* Cambio de color al pasar el mouse */
+    background: none;
+}
+
 .table-container {
     width: 65%;
     margin: 20px auto;
@@ -84,6 +140,7 @@ tbody tr:hover {
 }
 
 @media screen and (max-width: 550px) {
+
     .nicho-table {
         font-size: 2vh;
     }
@@ -98,13 +155,23 @@ tbody tr:hover {
 
     .productos {
         grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .productos {
         grid-template-columns: 1fr;
     }
+    .filter-container {
+        width: 90%;
+        padding: 6px; /* Reducir padding */
+    }
+    
+    .filter-container p {
+        font-size: 0.85em; /* Reducir más el tamaño del texto */
+    }
+    
+    .filter-options label {
+        font-size: 0.8em; /* Reducir aún más el tamaño del texto de las opciones */
+    }
+    
+    .filter-options input {
+        transform: scale(0.9); /* Reducir el tamaño del checkbox un poco más */
+    }    
 }
-
 
