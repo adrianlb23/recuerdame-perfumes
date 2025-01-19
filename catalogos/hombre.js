@@ -45,7 +45,7 @@ const perfumes =[
     new Perfume(33, "Armani Code Profumo", "Giorgio Armani", "Avainillado", "Amaderado"),
     new Perfume(34, "Black XS", "Paco Rabanne", "Calido especiado", "Dulce"),
     new Perfume(35, "Polo Red Extreme", "Ralph Lauren", "Aromático", "Calido especiado"),
-    new Perfume(36, "212 Sexy Men", "Carolina Herrera", "Calido especiado", "Verde"),
+    new Perfume(36, "212 Sexy Men", "Carolina Herrera", "Avainillado", "Amaderado"),
     new Perfume(37, "Lacoste Red", "Lacoste", "Citrico", "Aromático"),
     new Perfume(38, "Lacoste Pour Homme", "Lacoste", "Amaderado", "Aromático"),
     new Perfume(39, "Boss Bottled Night", "Hugo Boss", "Amaderado", "Floral"),
@@ -123,7 +123,7 @@ const perfumes =[
     new Perfume(111, "Uomo Born In Roma", "Valentino", "Amaderado", "Aromático"),
     new Perfume(112, "Spicebomb Extreme", "Viktor & Rolf", "Calido especiado", "Aromático"),
     new Perfume(113, "Valentino Uomo", "Valentino", "Amaderado", "Aromático"),
-    new Perfume(114, "Dior Homme Intense", "Dior", "Iris", "Amaderado"),
+    new Perfume(114, "Dior Homme Intense", "Dior", "Amaderado", "Aromático"),
     new Perfume(115, "Stronger With You Intensely", "Giorgio Armani", "Dulce", "Ambarado"),
     new Perfume(116, "Y EDP", "Yves Saint Laurent", "Aromático", "Amaderado"),
     new Perfume(117, "Bvlgari Man", "Bvlgari", "Amaderado", "Ambarado"),
@@ -145,14 +145,14 @@ const perfumes =[
     new Perfume(133, "Selection", "Hugo Boss", "Amaderado", "Aromático"),
     new Perfume(134, "Born In Roma Coral Fantasy", "Valentino", "Dulce", "Aromático"),
     new Perfume(135, "Le Beau Le Parfum", "Jean Paul Gaultier", "Dulce", "Aromático"),
-    new Perfume(136, "Le Beau Paradise Garden", "Jean Paul Gaultier", "Verde", "Aromático"),
+    new Perfume(136, "Le Beau Paradise Garden", "Jean Paul Gaultier", "Verde", "Dulce"),
     new Perfume(137, "Y EDP Intense", "Yves Saint Laurent", "Amaderado", "Aromático"),
     new Perfume(138, "Myslf", "Yves Saint Laurent", "Citrico", "Amaderado"),
     new Perfume(139, "Invictus Parfum", "Paco Rabanne", "Marino", "Aromático"),
     new Perfume(140, "Polo 67", "Ralph Lauren", "Frutal", "Citrico"),
     new Perfume(141, "Million Gold", "Paco Rabanne", "Amaderado", "Calido especiado"),
     new Perfume(142, "Le Male Le Parfum", "Jean Paul Gaultier", "Avainillado", "Calido especiado"),
-    new Perfume(143, "Play", "Givenchy", "Citrico", "Aromático")
+    new Perfume(143, "Play", "Givenchy", "Citrico", "Fresco especiado"),
       
 ]
 
