@@ -114,6 +114,9 @@ const perfumes = [
     new Perfume(101, "New York Nights", "Bond No. 9", "Unisex", "Caramelo", "Dulce"),
     new Perfume(102, "Lira", "Xerjoff", "Mujer", "Citrico", "Dulce"),
     new Perfume(103, "Greenwich Village", "Bond No. 9", "Unisex", "Floral", "Frutal"),
+    new Perfume(104, "Eden Juicy Apple", "Kayali", "Mujer", "Frutal", "Dulce"),
+    new Perfume(105, "Pax", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce"),
+    new Perfume(106, "Symphony", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

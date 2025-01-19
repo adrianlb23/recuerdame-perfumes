@@ -117,7 +117,9 @@ const perfumes =[
     new Perfume(105, "Mod Vanilla", "Ariana Grande", "Avainillado", "Dulce"),
     new Perfume(106, "La Belle Le Parfum", "Jean Paul Gaultier", "Dulce", "Ambarado"),
     new Perfume(107, "Crush Cheirosa 62'", "Sol de Janeiro", "Avainillado", "Dulce"),
-    new Perfume(108, "Noble Blush", "Lattaffa", "Dulce", "Atalcado")
+    new Perfume(108, "Noble Blush", "Lattaffa", "Dulce", "Atalcado"),
+    new Perfume(109, "Cloud Pink", "Ariana Grande", "Dulce", "Frutal"),
+    new Perfume(110, "Toy 2 Pearl", "Moschino", "Citrico", "Fresco especiado"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
