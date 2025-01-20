@@ -29,7 +29,7 @@ const perfumes = [
     new Perfume(16, "Elisyum", "Roja Parfums", "Hombre", "Aromático", "Citrico"),
     new Perfume(17, "Red Tobacco", "Mancera", "Unisex", "Calido especiado", "Tabaco"),
     new Perfume(18, "Interlude Man", "Amouage", "Hombre", "Ambarado", "Incienso"),
-    new Perfume(19, "Invite Only Amber 23", "Kayali Fragances", "Unisex", "Dulce", "Ambarado"),
+    new Perfume(19, "Invite Only Amber 23", "Kayali", "Unisex", "Dulce", "Ambarado"),
     new Perfume(20, "Baccarat Rouge 540", "Maison Francis Kurkdijan", "Unisex", "Amaderado", "Dulce"),
     new Perfume(21, "Creed for Her", "Creed", "Mujer", "Frutal", "Floral"),
     new Perfume(22, "Black Phantom", "Kilian", "Unisex", "Dulce", "Amaderado"),
@@ -88,9 +88,9 @@ const perfumes = [
     new Perfume(75, "Vanilla Powder", "Matiere Premiere", "Unisex", "Avainillado", "Dulce"),
     new Perfume(76, "Cassiopea", "Tiziana Terenzi", "Unisex", "Dulce", "Aromático"),
     new Perfume(77, "Sunshine Woman", "Amouage", "Mujer", "Frutal", "Floral"),
-    new Perfume(78, "Yum Pistachio Gelatto", "Kayali Fragances", "Unisex", "Dulce", "Frutal"),
-    new Perfume(79, "Electric Cherry", "Tom Ford", "Unisex", "Frutal", "Aromático"),
-    new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Aromático"),
+    new Perfume(78, "Yum Pistachio Gelatto", "Kayali", "Unisex", "Dulce", "Avainillado"),
+    new Perfume(79, "Electric Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce"),
+    new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Frutal"),
     new Perfume(81, "Vanille Absolu", "Montale", "Mujer", "Avainillado", "Dulce"),
     new Perfume(82, "Tobacco Mandarin", "Byredo", "Unisex", "Fresco especiado", "Tabaco"),
     new Perfume(83, "Kalan", "Parfums de Marly", "Unisex", "Calido especiado", "Aromático"),
@@ -117,6 +117,7 @@ const perfumes = [
     new Perfume(104, "Eden Juicy Apple", "Kayali", "Mujer", "Frutal", "Dulce"),
     new Perfume(105, "Pax", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce"),
     new Perfume(106, "Symphony", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado"),
+    new Perfume(106, "Vanilla 28", "Kayali", "Mujer", "Avainillado", "Dulce"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
