@@ -153,7 +153,8 @@ const perfumes =[
     new Perfume(141, "Million Gold", "Paco Rabanne", "Amaderado", "Calido especiado"),
     new Perfume(142, "Le Male Le Parfum", "Jean Paul Gaultier", "Avainillado", "Calido especiado"),
     new Perfume(143, "Play", "Givenchy", "Citrico", "Fresco especiado"),
-    new Perfume(144, "Gentleman Reserve Privée", "Givenchy", "Amaderado", "Calido especiado"),
+    new Perfume(144, "Light Blue Italian Love", "Dolce & Gabbana", "Citrico", "Amaderado"),
+    new Perfume(145, "Gentleman Reserve Privée", "Givenchy", "Amaderado", "Calido especiado")
       
 ]
 
