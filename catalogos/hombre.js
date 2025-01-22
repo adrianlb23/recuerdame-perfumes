@@ -12,7 +12,7 @@ class Perfume {
 const perfumes =[
     new Perfume(1, "Paco Rabanne Pour Homme", "Paco Rabanne", "Fresco especiado", "Dulce"),
     new Perfume(2, "Quorum", "Antonio Puig", "Amaderado", "Aromático"),
-    new Perfume(3, "Jazz", "Yves Saint Laurent", "Aromático", "Especiado"),
+    new Perfume(3, "Jazz", "Yves Saint Laurent", "Aromático", "Fresco especiado"),
     new Perfume(4, "Azzaro Pour Homme", "Azzaro", "Citrico", "Aromático"),
     new Perfume(5, "Polo Sport", "Ralph Lauren", "Marino", "Aromático"),
     new Perfume(6, "Carolina Herrera", "Carolina Herrera", "Floral", "Verde"),
