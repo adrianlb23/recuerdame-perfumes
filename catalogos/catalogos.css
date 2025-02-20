@@ -123,6 +123,9 @@ thead {
     background-color: #333;
     color: #fff;
 }
+tr{
+    cursor: pointer;
+}
 
 th, 
 td {
