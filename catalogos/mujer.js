@@ -61,7 +61,7 @@ const perfumes =[
     new Perfume(48, "Euphoria", "Calvin Klein", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Calvin-Klein/Euphoria-253.html"),
     new Perfume(49, "Fantasy", "Britney Spears", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Britney-Spears/Fantasy-600.html"),
     new Perfume(50, "Curious", "Britney Spears", "Floral", "Dulce", "https://www.fragrantica.es/perfume/Britney-Spears/Curious-141.html"),
-    new Perfume(51, "CH Woman", "Carolina Herrera", "Citrico", "Amaderado"), "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-2015-31507.html",
+    new Perfume(51, "CH Woman", "Carolina Herrera", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-2015-31507.html"),
     new Perfume(52, "Olimpea", "Paco Rabanne", "Avainillado", "Ambarado", "https://www.fragrantica.es/perfume/Rabanne/Olympea-31666.html"),
     new Perfume(53, "Eros", "Versace", "Citrico", "Calido especiado", "https://www.fragrantica.es/perfume/Versace/Eros-Pour-Femme-28958.html"),
     new Perfume(54, "My Way", "Giorgio Armani", "Floral blanco", "Citrico", "https://www.fragrantica.es/perfume/Giorgio-Armani/My-Way-62036.html"),
@@ -168,8 +168,6 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
         return;
     }
 
-    
-
     perfumesFiltrados.forEach(perfume => {
         const tr = document.createElement('tr');
 
@@ -180,6 +178,7 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
             }
         });
 
+        // Crear celdas y agregar contenido
         const tdNumero = document.createElement('td');
         tdNumero.textContent = perfume.numero;
         tr.appendChild(tdNumero);
@@ -192,6 +191,7 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
         tdMarca.textContent = perfume.marca;
         tr.appendChild(tdMarca);
 
+        // Agregar la fila a la tabla
         tbody.appendChild(tr);
     });
 }
