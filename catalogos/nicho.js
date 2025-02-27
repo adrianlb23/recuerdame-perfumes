@@ -121,6 +121,7 @@ const perfumes = [
     new Perfume(107, "Vanilla 28", "Kayali", "Mujer", "Amabarado", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Vanilla-28-52616.html"),
     new Perfume(108, "Virgin Island Water", "Creed", "Unisex", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Creed/Virgin-Island-Water-899.html"),
     new Perfume(109, "Layton Exclusif", "Parfums de Marly", "Unisex", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Layton-Exclusif-46633.html"),
+    new Perfume(110, "Fucking Fabulous", "Tom Ford", "Unisex", "Aromatico", "Avainillado", "https://www.fragrantica.es/perfume/Tom-Ford/Fucking-Fabulous-46513.html")
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
