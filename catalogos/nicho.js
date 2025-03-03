@@ -123,7 +123,7 @@ const perfumes = [
     new Perfume(109, "Layton Exclusif", "Parfums de Marly", "Unisex", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Layton-Exclusif-46633.html"),
     new Perfume(110, "Fucking Fabulous", "Tom Ford", "Unisex", "Aromatico", "Avainillado", "https://www.fragrantica.es/perfume/Tom-Ford/Fucking-Fabulous-46513.html"),
     new Perfume(111, "Aoud Lemon Mint", "Mancera", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Mancera/Aoud-Lemon-Mint-39181.html"),
-    //new Perfume(112, "Lost Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Lost-Cherry-51411.html"),
+    new Perfume(112, "Lost Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Lost-Cherry-51411.html"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
