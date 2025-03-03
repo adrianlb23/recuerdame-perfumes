@@ -124,7 +124,7 @@ const perfumes =[
     new Perfume(111, "Angel Nova", "Mugler", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Mugler/Angel-Nova-61519.html"),
     new Perfume(112, "Million Gold", "Paco Rabanne", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Million-Gold-For-Her-95640.html"),
     new Perfume(113, "Green Stravaganza", "Valentino", "Floral blanco", "Avainillado", "https://www.fragrantica.es/perfume/Valentino/Valentino-Donna-Born-in-Roma-Green-Stravaganza-88988.html"),
-    //new Perfume(114, "Very Good Girl", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/Very-Good-Girl-65560.html"),
+    new Perfume(114, "Very Good Girl", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/Very-Good-Girl-65560.html"),
     new Perfume(115, "La Vie est Belle L'Elixir", "Lancome", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Vie-est-Belle-L-Elixir-95856.html"),
 ]
 
