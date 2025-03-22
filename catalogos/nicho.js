@@ -124,6 +124,12 @@ const perfumes = [
     new Perfume(110, "Fucking Fabulous", "Tom Ford", "Unisex", "Aromatico", "Avainillado", "https://www.fragrantica.es/perfume/Tom-Ford/Fucking-Fabulous-46513.html"),
     new Perfume(111, "Aoud Lemon Mint", "Mancera", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Mancera/Aoud-Lemon-Mint-39181.html"),
     new Perfume(112, "Lost Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Lost-Cherry-51411.html"),
+    new Perfume(113, "Cactus Garden", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Cactus-Garden-53946.html"),
+    new Perfume(114, "Oajan", "Parfums de Marly", "Unisex", "Ambarado", "Calido especiado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Oajan-21548.html"),
+    new Perfume(115, "Torino 21", "Xerjoff", "Unisex", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Xerjoff/Torino21-70424.html"),
+    new Perfume(116, "Gris Charnel", "BDK Parfums", "Unisex", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/BDK-Parfums/Gris-Charnel-57038.html"),
+    new Perfume(117, "Tuscan Leather", "Tom Ford", "Unisex", "Aromatico", "Afrutado", "https://www.fragrantica.es/perfume/Tom-Ford/Tuscan-Leather-1849.html"),
+    new Perfume(118, "Afternoon Swim", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Afternoon-Swim-53947.html"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

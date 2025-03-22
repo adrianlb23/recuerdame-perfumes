@@ -164,6 +164,7 @@ const perfumes =[
     new Perfume(149, "Toy Boy", "Moschino", "Floral", "Fresco especiado", "https://www.fragrantica.es/perfume/Moschino/Toy-Boy-55858.html"),
     new Perfume(150, "Armani Code Parfum", "Giorgio Armani", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Code-Parfum-75126.html"),
     new Perfume(151, "Wanted", "Azzaro", "Aromatico", "Calido especiado", "https://www.fragrantica.es/perfume/Azzaro/Wanted-38686.html"),
+    new Perfume(152, "Bourbon", "Asad" ,"Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Asad-Bourbon-101124.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
