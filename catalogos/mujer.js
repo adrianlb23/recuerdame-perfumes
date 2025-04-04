@@ -126,6 +126,14 @@ const perfumes =[
     new Perfume(113, "Green Stravaganza", "Valentino", "Floral blanco", "Avainillado", "https://www.fragrantica.es/perfume/Valentino/Valentino-Donna-Born-in-Roma-Green-Stravaganza-88988.html"),
     new Perfume(114, "Very Good Girl", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/Very-Good-Girl-65560.html"),
     new Perfume(115, "La Vie est Belle L'Elixir", "Lancome", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Vie-est-Belle-L-Elixir-95856.html"),
+    new Perfume(116, "Aura", "Mugler", "Verde", "Amaderado", "https://www.fragrantica.es/perfume/Mugler/Aura-Mugler-45639.html"),
+    new Perfume(117, "Gloria", "Cacharel", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Vie-est-Belle-L-Elixir-95856.html"),
+    new Perfume(118, "Romance", "Raplh Lauren", "Floral", "Calido especiado", "https://www.fragrantica.es/perfume/Ralph-Lauren/Romance-825.html"),
+    new Perfume(119, "Libre Intense", "Yves Saint Laurent", "Avainillado", "Floral blanco", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Libre-Intense-62318.html"),
+    new Perfume(120, "Miss Dior Parfum", "Dior", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dior/Miss-Dior-Parfum-2024-89584.html"),
+    new Perfume(121, "La Vie est Belle Soleil Cristal", "Lancome", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Vie-Est-Belle-Soleil-Cristal-65156.html"),
+    new Perfume(122, "Her", "Burberry", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Burberry/Burberry-Her-51694.html"),
+    new Perfume(123, "Sweet Tooth", "Sabrina Carpenter", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-76824.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
