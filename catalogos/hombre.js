@@ -109,7 +109,7 @@ const perfumes =[
     new Perfume(94, "One Million Elixir", "Paco Rabanne", "Avainillado", "Frutal", "https://www.fragrantica.es/perfume/Rabanne/1-Million-Elixir-71708.html"),
     new Perfume(95, "L’Homme", "Yves Saint Laurent", "Calido especiado", "Citrico", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/L-Homme-734.html"),
     new Perfume(96, "Invictus Platinum", "Paco Rabanne", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Rabanne/Invictus-Platinum-72557.html"),
-    new Perfume(97, "Oud for Glory", "Lataffa", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Bade-e-Al-Oud-Oud-for-Glory-64948.html"),
+    new Perfume(97, "Oud for Glory", "Lattafa", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Bade-e-Al-Oud-Oud-for-Glory-64948.html"),
     new Perfume(98, "Hugo Energise", "Hugo Boss", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Hugo-Boss/Hugo-Energise-569.html"),
     new Perfume(99, "Scandal EDT", "Jean Paul Gaultier", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Scandal-Pour-Homme-68074.html"),
     new Perfume(100, "L’Eau Pour Homme", "Kenzo", "Citrico", "Aromatico", "https://www.fragrantica.es/perfume/Kenzo/L-Eau-par-Kenzo-pour-Homme-79.html"),
