@@ -134,6 +134,8 @@ const perfumes =[
     new Perfume(121, "La Vie est Belle Soleil Cristal", "Lancome", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Vie-Est-Belle-Soleil-Cristal-65156.html"),
     new Perfume(122, "Her", "Burberry", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Burberry/Burberry-Her-51694.html"),
     new Perfume(123, "Sweet Tooth", "Sabrina Carpenter", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-76824.html"),
+    new Perfume(124, "Crush Cheirosa 59'", "Sol de Janeiro", "Atalcado", "Dulce", "https://www.fragrantica.es/perfume/Sol-de-Janeiro/Cheirosa-59-88722.html"),
+    new Perfume(125, "Crush Cheirosa 68'", "Sol de Janeiro", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Sol-de-Janeiro/Cheirosa-68-73990.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

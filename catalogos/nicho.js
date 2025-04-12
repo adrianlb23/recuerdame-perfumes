@@ -132,6 +132,7 @@ const perfumes = [
     new Perfume(118, "Afternoon Swim", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Afternoon-Swim-53947.html"),
     new Perfume(119, "Coffee Break", "Maison Martin Margiela", "Unisex", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Coffee-Break-55926.html"),
     new Perfume(120, "Erba Gold", "Xerjoff", "Unisex", "Citrico", "Afrutado", "https://www.fragrantica.es/perfume/Xerjoff/Erba-Gold-76683.html"),
+    new Perfume(121, "Noir Extreme", "Tom Ford", "Hombre", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Noir-Extreme-29675.html"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
