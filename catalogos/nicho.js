@@ -105,7 +105,7 @@ const perfumes = [
     new Perfume(91, "Lafayette Street", "Bond No. 9", "Unisex", "Ambarado", "Avainillado", "https://www.fragrantica.es/perfume/Bond-No-9/Lafayette-Street-51742.html"),
     new Perfume(92, "God Of Fire", "Stephane Humbert Lucas 777", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Stephane-Humbert-Lucas-777/God-of-Fire-72381.html"),
     new Perfume(93, "Smoking Hot", "Kilian", "Unisex", "Tabaco", "Frutal", "https://www.fragrantica.es/perfume/By-Kilian/Smoking-Hot-84413.html"),
-    new Perfume(94, "Ombre Nomade", "Louis Vuitton", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/By-Kilian/Smoking-Hot-84413.html"),
+    new Perfume(94, "Ombre Nomade", "Louis Vuitton", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.com/perfume/Louis-Vuitton/Ombre-Nomade-49755.html"),
     new Perfume(95, "Hadar", "Spirit of Kings", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Spirit-Of-Kings/Hadar-58238.html"),
     new Perfume(96, "Perseus", "Parfums de Marly", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Perseus-90199.html"),
     new Perfume(97, "Summer Hammer", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lorenzo-Pazzaglia/Summer-Hammer-81476.html"),
