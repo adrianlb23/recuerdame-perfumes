@@ -63,6 +63,7 @@ const perfumes =[
     new Perfume(47, "Angel Men", "Thierry Mugler", "Dulce", "Calido especiado", "https://www.fragrantica.es/perfume/Mugler/A-Men-705.html"),
     new Perfume(48, "One Million", "Paco Rabanne", "Calido especiado", "Citrico", "https://www.fragrantica.es/perfume/Rabanne/1-Million-3747.html"),
     new Perfume(49, "Armani Diamonds", "Giorgio Armani", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Diamonds-for-Men-3793.html"),
+    new Perfume(50, "Insense Ultramarine", "Givenchy", "Verde", "Aromatico", "https://www.fragrantica.es/perfume/Givenchy/Insense-Ultramarine-858.html"),
     new Perfume(51, "The One", "Dolce & Gabbana", "Ambarado", "Calido especiado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/The-One-for-Men-2056.html"),
     new Perfume(52, "Boss Bottled", "Hugo Boss", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-383.html"),
     new Perfume(53, "Allure Blanche", "Chanel", "Citrico", "Avainillado", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Edition-Blanche-2653.html"),
@@ -171,6 +172,9 @@ const perfumes =[
     new Perfume(156, "Honor & Glory", "Lattafa", "Dulce", "Calido especiado","https://www.fragrantica.es/perfume/Lattafa-Perfumes/Bade-e-Al-Oud-Honor-Glory-84302.html"),
     new Perfume(157, "Le Male Elixir Absolu", "Jean Paul Gaultier", "Dulce", "Calido especiado","https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-Absolu-101529.html"),
     new Perfume(158, "Stronger With You Parfum", "Giorgio Armani", "Avainillado", "Aromatico","https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Parfum-100895.html"),
+    new Perfume(159, "Impact", "Tommy Hilfiger", "Amaderado", "Citrico","https://www.fragrantica.es/perfume/Tommy-Hilfiger/Impact-59835.html"),
+    new Perfume(160, "Eros Energy", "Versace", "Citrico", "Citrico","https://www.fragrantica.es/perfume/Versace/Eros-Energy-92647.html"),
+    new Perfume(161, "The Most Wanted EDP Intense", "Azzaro", "Calido especiado", "Dulce","https://www.fragrantica.es/perfume/Azzaro/The-Most-Wanted-66826.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

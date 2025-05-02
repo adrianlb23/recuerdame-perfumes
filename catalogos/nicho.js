@@ -132,7 +132,14 @@ const perfumes = [
     new Perfume(118, "Afternoon Swim", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Afternoon-Swim-53947.html"),
     new Perfume(119, "Coffee Break", "Maison Martin Margiela", "Unisex", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Coffee-Break-55926.html"),
     new Perfume(120, "Erba Gold", "Xerjoff", "Unisex", "Citrico", "Afrutado", "https://www.fragrantica.es/perfume/Xerjoff/Erba-Gold-76683.html"),
-    new Perfume(121, "Noir Extreme", "Tom Ford", "Hombre", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Noir-Extreme-29675.html"),
+    new Perfume(122, "Tribeca", "Bond No. 9", "Unisex", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Bond-No-9/TriBeCa-59904.html"),
+    new Perfume(123, "The Tragedy of Lord George", "Penhaligon’s", "Hombre", "Amaderado", "Ambarado", "https://www.fragrantica.es/perfume/Penhaligon-s/The-Tragedy-of-Lord-George-40716.html"),
+    new Perfume(124, "Centaurus", "Creed", "Unisex", "Calido especiado", "Ambarado", "https://www.fragrantica.es/perfume/Creed/Centaurus-95601.html"),
+    new Perfume(125, "Eden Sparkling Lychee", "Kayali", "Mujer", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Eden-Sparkling-Lychee-39-Eau-de-Parfum-88197.html"),
+    new Perfume(126, "Almaz", "Kajal", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Kajal/Almaz-73429.html"),
+    new Perfume(127, "Narcotic Delight", "Initio", "Unisex", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Initio-Parfums-Prives/Narcotic-Delight-89368.html"),
+    new Perfume(128, "Il Peace", "Ilmin", "Hombre", "Calido especiado", "Dulce", ""),
+    new Perfume(129, "Attrape-Rêves", "Louis Vuitton", "Mujer", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Attrape-Reves-51016.html"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
