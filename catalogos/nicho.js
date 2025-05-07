@@ -1,6 +1,6 @@
 // Clase Perfume
 class Perfume {
-    constructor(numero, nombre, marca, genero, tipo, tipo2, url) {
+    constructor(numero, nombre, marca, genero, tipo, tipo2, url, dispo) {
         this.numero = numero; // Número identificador
         this.nombre = nombre; // Nombre del perfume
         this.marca = marca;   // Casa perfumista
@@ -8,6 +8,7 @@ class Perfume {
         this.tipo = tipo;     // Tipo olfativo
         this.tipo2 = tipo2;
         this.url = url; //url fragrantica
+        this.dispo = dispo; // Disponibilidad
     }
 }
 
@@ -18,7 +19,7 @@ const perfumes = [
     new Perfume(4, "Tobacco Vanille", "Tom Ford", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Tobacco-Vanille-1825.html"),
     new Perfume(5, "Ombré Leather", "Tom Ford", "Unisex", "Cuero", "Amaderado", "https://www.fragrantica.es/perfume/Tom-Ford/Ombre-Leather-2018-50239.html"),
     new Perfume(6, "Erolfa", "Creed", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Creed/Erolfa-4248.html"),
-    new Perfume(7, "Musc Ravageur", "Frederic Malle", "Unisex", "Calido especiado", "Ambarado", "https://www.fragrantica.es/perfume/Frederic-Malle/Musc-Ravageur-1801.html"),
+    new Perfume(7, "Musc Ravageur", "Frederic Malle", "Unisex", "Calido especiado", "Ambarado", "https://www.fragrantica.es/perfume/Frederic-Malle/Musc-Ravageur-1801.html", "sold"),
     new Perfume(8, "Andrés Croxatto Man", "Andrés Croxatto", "Hombre", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Andres-Croxatto/Andres-Croxatto-Man-68880.html"),
     new Perfume(9, "Erba Pura", "Xerjoff", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Xerjoff/Erba-Pura-55157.html"),
     new Perfume(10, "Erba Pura Magica", "Sospiro Perfumes", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Sospiro-Perfumes/Erba-Pura-Magica-75942.html"),
@@ -47,7 +48,7 @@ const perfumes = [
     new Perfume(33, "1872", "Clive Christian", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Clive-Christian/1872-For-Men-4646.html"),
     new Perfume(34, "Armani Prive Vert Malachite", "Giorgio Armani", "Unisex", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Prive-Vert-Malachite-34588.html"),
     new Perfume(35, "Imagination", "Louis Vuitton", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Louis-Vuitton/Imagination-67370.html"),
-    new Perfume(36, "Angels Share", "Kilian", "Unisex", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/By-Kilian/Angels-Share-62615.html"),
+    new Perfume(36, "Angels Share", "Kilian", "Unisex", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/By-Kilian/Angels-Share-62615.html", "sold"),
     new Perfume(37, "Pardon", "Nasomatto", "Hombre", "Calido especiado", "Tabaco", "https://www.fragrantica.es/perfume/Nasomatto/Pardon-12130.html"),
     new Perfume(38, "Oriana", "Parfums de Marly", "Mujer", "Dulce", "Citrico", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Oriana-69117.html"),
     new Perfume(39, "Carmina", "Creed", "Mujer", "Ambarado", "Floral", "https://www.fragrantica.es/perfume/Creed/Carmina-84206.html"),
@@ -56,7 +57,7 @@ const perfumes = [
     new Perfume(42, "The Collection: Courageous Rose", "Hugo Boss", "Unisex", "Fresco especiado", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Courageous-Rose-101080.html"),
     new Perfume(43, "Renaissance", "Xerjoff", "Unisex", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Xerjoff/XJ-1861-Renaissance-12126.html"),
     new Perfume(44, "Chocolate Greedy", "Montale", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Montale/Chocolate-Greedy-2186.html"),
-    new Perfume(45, "Percival", "Parfums de Marly", "Unisex", "Ambarado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Percival-51037.html"),
+    new Perfume(45, "Percival", "Parfums de Marly", "Unisex", "Ambarado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Percival-51037.html", "sold"),
     new Perfume(46, "Office for Men", "Jeremy Fragrance", "Hombre", "Ambarado", "Citrico", "https://www.fragrantica.es/perfume/Fragrance-One/Office-For-Men-55166.html"),
     new Perfume(47, "Hacivat", "Nishane", "Unisex", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Nishane/Hacivat-44174.html"),
     new Perfume(48, "Althair", "Parfums de Marly", "Hombre", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Althair-84109.html"),
@@ -69,7 +70,7 @@ const perfumes = [
     new Perfume(55, "Pegasus", "Parfums de Marly", "Hombre", "Avainillado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Pegasus-16938.html"),
     new Perfume(56, "Ege", "Nishane", "Unisex", "Verde", "Fresco especiado", "https://www.fragrantica.es/perfume/Nishane/EGE-AIGAIO-64092.html"),
     new Perfume(57, "Bitter Peach", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Bitter-Peach-62707.html"),
-    new Perfume(58, "Absolu Aventus", "Creed", "Hombre", "Citrico", "Calido especiado", "https://www.fragrantica.es/perfume/Creed/Absolu-Aventus-84112.html"),
+    new Perfume(58, "Absolu Aventus", "Creed", "Hombre", "Citrico", "Calido especiado", "https://www.fragrantica.es/perfume/Creed/Absolu-Aventus-84112.html", "sold"),
     new Perfume(59, "By The Fireplace", "Maison Martin Margiela", "Unisex", "Amaderado", "Avainillado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/By-the-Fireplace-31623.html"),
     new Perfume(60, "Kirke", "Tiziana Terenzi", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tiziana-Terenzi/Kirke-32172.html"),
     new Perfume(61, "Cedrat Boise", "Mancera", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Mancera/Cedrat-Boise-15211.html"),
@@ -102,16 +103,16 @@ const perfumes = [
     new Perfume(88, "Curacao Bay", "Jacques Fath", "Unisex", "Citrico", "Marino", "https://www.fragrantica.es/perfume/Jacques-Fath/Curacao-Bay-32571.html"),
     new Perfume(89, "Oud Maracujá", "Maison Crivelli", "Unisex", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Maison-Crivelli/Oud-Maracuja-83842.html"),
     new Perfume(90, "Can’t Stop Loving You", "Kilian", "Mujer", "Floral", "Dulce", "https://www.fragrantica.es/perfume/By-Kilian/Can-t-Stop-Loving-You-78735.html"),
-    new Perfume(91, "Lafayette Street", "Bond No. 9", "Unisex", "Ambarado", "Avainillado", "https://www.fragrantica.es/perfume/Bond-No-9/Lafayette-Street-51742.html"),
-    new Perfume(92, "God Of Fire", "Stephane Humbert Lucas 777", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Stephane-Humbert-Lucas-777/God-of-Fire-72381.html"),
-    new Perfume(93, "Smoking Hot", "Kilian", "Unisex", "Tabaco", "Frutal", "https://www.fragrantica.es/perfume/By-Kilian/Smoking-Hot-84413.html"),
+    new Perfume(91, "Lafayette Street", "Bond No. 9", "Unisex", "Ambarado", "Avainillado", "https://www.fragrantica.es/perfume/Bond-No-9/Lafayette-Street-51742.html", "sold"),
+    new Perfume(92, "God Of Fire", "Stephane Humbert Lucas 777", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Stephane-Humbert-Lucas-777/God-of-Fire-72381.html", "sold"),
+    new Perfume(93, "Smoking Hot", "Kilian", "Unisex", "Tabaco", "Frutal", "https://www.fragrantica.es/perfume/By-Kilian/Smoking-Hot-84413.html", "sold"),
     new Perfume(94, "Ombre Nomade", "Louis Vuitton", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.com/perfume/Louis-Vuitton/Ombre-Nomade-49755.html"),
     new Perfume(95, "Hadar", "Spirit of Kings", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Spirit-Of-Kings/Hadar-58238.html"),
     new Perfume(96, "Perseus", "Parfums de Marly", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Perseus-90199.html"),
     new Perfume(97, "Summer Hammer", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lorenzo-Pazzaglia/Summer-Hammer-81476.html"),
     new Perfume(98, "Grand Soir", "Maison Francis Kurkdjian", "Unisex", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Maison-Francis-Kurkdjian/Grand-Soir-40816.html"),
     new Perfume(99, "Jazz Club", "Maison Martin Margiela", "Hombre", "Tabaco", "Dulce", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Jazz-Club-20541.html"),
-    new Perfume(100, "Torino 22", "Xerjoff", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Xerjoff/Torino22-77059.html"),
+    new Perfume(100, "Torino 22", "Xerjoff", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Xerjoff/Torino22-77059.html", "sold"),
     new Perfume(101, "New York Nights", "Bond No. 9", "Unisex", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Bond-No-9/New-York-Nights-46057.html"),
     new Perfume(102, "Lira", "Xerjoff", "Mujer", "Citrico", "Avainillado", "https://www.fragrantica.es/perfume/Xerjoff/Lira-11801.html"),
     new Perfume(103, "Greenwich Village", "Bond No. 9", "Unisex", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Bond-No-9/Greenwich-Village-54157.html"),
@@ -183,15 +184,20 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
     if (perfumesFiltrados.length === 0) {
         tbody.innerHTML = '<tr><td colspan="5">No se encontraron perfumes.</td></tr>';
         return;
-    }    
+    }
 
     perfumesFiltrados.forEach(perfume => {
         const tr = document.createElement('tr');
 
-        // Redireccion a la página de detalles del perfume
+        // Si el perfume está agotado, aplicar clase "sold"
+        if (perfume.dispo === 'sold') {
+            tr.classList.add('sold');
+        }
+
+        // Redireccion a la página de detalles del perfume si está disponible
         tr.addEventListener('click', () => {
-            if (perfume.url) {
-                window.location.href = perfume.url; 
+            if (perfume.url && perfume.dispo !== 'sold') {
+                window.location.href = perfume.url;
             }
         });
 
@@ -214,6 +220,7 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
         tbody.appendChild(tr);
     });
 }
+
 
 function deseleccionarRadios() {
     const radios = document.querySelectorAll('input[name="aroma"]');

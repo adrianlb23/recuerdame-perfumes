@@ -178,3 +178,12 @@ tbody tr:hover {
     }    
 }
 
+.sold {
+    color: rgb(255, 139, 139);
+}
+
+.botones-container{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}

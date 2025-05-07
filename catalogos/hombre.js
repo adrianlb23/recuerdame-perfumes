@@ -1,12 +1,13 @@
 // Clase Perfume
 class Perfume {
-    constructor(numero, nombre, marca, tipo, tipo2, url /*, clima, ocasion, ocasion */) {
+    constructor(numero, nombre, marca, tipo, tipo2, url, dispo /*, clima, ocasion, ocasion */) {
         this.numero = numero;
         this.nombre = nombre;
         this.marca = marca;
         this.tipo = tipo;
         this.tipo2 = tipo2;
         this.url = url;
+        this.dispo = dispo;
         //this.clima = clima;
         //this.ocasion = ocasion;
         //this.ocasion = ocasion;
@@ -134,26 +135,26 @@ const perfumes =[
     new Perfume(118, "Golden Secret", "Antonio Banderas", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Antonio-Banderas/The-Golden-Secret-13549.html"),
     new Perfume(119, "A*Men", "Thierry Mugler", "Dulce", "Aromatico", "https://www.fragrantica.es/perfume/Mugler/A-Men-705.html"),
     new Perfume(120, "Legend Spirit", "Montblanc", "Aromatico", "Amaderado", "https://www.fragrantica.es/perfume/Montblanc/Legend-Spirit-33443.html"),
-    new Perfume(121, "Luna Rossa Black", "Prada", "Ambarado", "Aromatico", "https://www.fragrantica.es/perfume/Prada/Luna-Rossa-Black-48682.html"),
+    new Perfume(121, "Luna Rossa Black", "Prada", "Ambarado", "Aromatico", "https://www.fragrantica.es/perfume/Prada/Luna-Rossa-Black-48682.html", "sold"),
     new Perfume(122, "Montblanc Explorer", "Montblanc", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Montblanc/Explorer-52002.html"),
     new Perfume(123, "Invictus Intense", "Paco Rabanne", "Ambarado", "Aromatico", "https://www.fragrantica.es/perfume/Rabanne/Invictus-Intense-42891.html"),
     new Perfume(124, "Scandal Le Parfum", "Jean Paul Gaultier", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Scandal-Pour-Homme-Le-Parfum-74915.html"),
     new Perfume(125, "Eros Flame", "Versace", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Versace/Eros-Flame-52180.html"),
-    new Perfume(126, "Le Male Elixir", "Jean Paul Gaultier", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-81642.html"),
+    new Perfume(126, "Le Male Elixir", "Jean Paul Gaultier", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-81642.html", "sold"),
     new Perfume(127, "Stronger With You Absolutely", "Giorgio Armani", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Absolutely-64501.html"),
     new Perfume(128, "Boss Bottled Elixir", "Hugo Boss", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Elixir-84074.html"),
     new Perfume(129, "L'Homme Idéal EDP", "Guerlain", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html"),
-    new Perfume(130, "Acqua Di Gio Parfum", "Giorgio Armani", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Parfum-81508.html"),
-    new Perfume(131, "Phantom Parfum", "Paco Rabanne", "Aromatico", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Phantom-Parfum-81927.html"),
+    new Perfume(130, "Acqua Di Gio Parfum", "Giorgio Armani", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Parfum-81508.html", "sold"),
+    new Perfume(131, "Phantom Parfum", "Paco Rabanne", "Aromatico", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Phantom-Parfum-81927.html", "sold"),
     new Perfume(132, "Luna Rossa Carbon", "Prada", "Fresco especiado", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Luna-Rossa-Carbon-43402.html"),
     new Perfume(133, "Selection", "Hugo Boss", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Selection-387.html"),
     new Perfume(134, "Born In Roma Coral Fantasy", "Valentino", "Frutal", "Aromatico", "https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-In-Roma-Coral-Fantasy-71761.html"),
     new Perfume(135, "Le Beau Le Parfum", "Jean Paul Gaultier", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Beau-Le-Parfum-72158.html"),
-    new Perfume(136, "Le Beau Paradise Garden", "Jean Paul Gaultier", "Verde", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Beau-Paradise-Garden-88836.html"),
+    new Perfume(136, "Le Beau Paradise Garden", "Jean Paul Gaultier", "Verde", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Beau-Paradise-Garden-88836.html", "sold"),
     new Perfume(137, "Y EDP Intense", "Yves Saint Laurent", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Y-Eau-de-Parfum-Intense-79243.html"),
-    new Perfume(138, "Myslf", "Yves Saint Laurent", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/MYSLF-Eau-de-Parfum-84094.html"),
+    new Perfume(138, "Myslf", "Yves Saint Laurent", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/MYSLF-Eau-de-Parfum-84094.html", "sold"),
     new Perfume(139, "Invictus Parfum", "Paco Rabanne", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Rabanne/Invictus-Parfum-90433.html"),
-    new Perfume(140, "Polo 67", "Ralph Lauren", "Frutal", "Citrico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-67-90347.html"),
+    new Perfume(140, "Polo 67", "Ralph Lauren", "Frutal", "Citrico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-67-90347.html", "sold"),
     new Perfume(141, "Million Gold", "Paco Rabanne", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Rabanne/Million-Gold-95641.html"),
     new Perfume(142, "Le Male Le Parfum", "Jean Paul Gaultier", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Le-Parfum-61856.html"),
     new Perfume(143, "Play", "Givenchy", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Givenchy/Givenchy-Play-Eau-de-Toilette-3906.html"),
@@ -169,7 +170,7 @@ const perfumes =[
     new Perfume(153, "Born In Roma Intense", "Valentino", "Avainillado", "Aromático","https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-In-Roma-Intense-78740.html"),
     new Perfume(154, "Animale for Men", "Animale", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Animale/Animale-for-Men-5922.html"),
     new Perfume(155, "Versace Pour Homme", "Versace", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Versace/Versace-Pour-Homme-2318.html"),
-    new Perfume(156, "Honor & Glory", "Lattafa", "Dulce", "Calido especiado","https://www.fragrantica.es/perfume/Lattafa-Perfumes/Bade-e-Al-Oud-Honor-Glory-84302.html"),
+    new Perfume(156, "Honor & Glory", "Lattafa", "Dulce", "Frutal","https://www.fragrantica.es/perfume/Lattafa-Perfumes/Bade-e-Al-Oud-Honor-Glory-84302.html"),
     new Perfume(157, "Le Male Elixir Absolu", "Jean Paul Gaultier", "Dulce", "Calido especiado","https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-Absolu-101529.html"),
     new Perfume(158, "Stronger With You Parfum", "Giorgio Armani", "Avainillado", "Aromatico","https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Parfum-100895.html"),
     new Perfume(159, "Impact", "Tommy Hilfiger", "Amaderado", "Citrico","https://www.fragrantica.es/perfume/Tommy-Hilfiger/Impact-59835.html"),
@@ -223,14 +224,18 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
     perfumesFiltrados.forEach(perfume => {
         const tr = document.createElement('tr');
 
-        // Redireccion a la página de detalles del perfume
+        // Si el perfume está agotado, aplicar clase "sold"
+        if (perfume.dispo === 'sold') {
+            tr.classList.add('sold')
+        }
+
+        // Redireccion a la página de detalles del perfume si está disponible
         tr.addEventListener('click', () => {
-            if (perfume.url) {
-                window.location.href = perfume.url; 
+            if (perfume.url && perfume.dispo !== 'sold') {
+                window.location.href = perfume.url;
             }
         });
 
-        // Crear celdas y agregar contenido
         const tdNumero = document.createElement('td');
         tdNumero.textContent = perfume.numero;
         tr.appendChild(tdNumero);
@@ -243,7 +248,6 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
         tdMarca.textContent = perfume.marca;
         tr.appendChild(tdMarca);
 
-        // Agregar la fila a la tabla
         tbody.appendChild(tr);
     });
 }
