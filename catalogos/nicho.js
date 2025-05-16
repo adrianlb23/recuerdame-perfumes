@@ -48,7 +48,7 @@ const perfumes = [
     new Perfume(33, "1872", "Clive Christian", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Clive-Christian/1872-For-Men-4646.html"),
     new Perfume(34, "Armani Prive Vert Malachite", "Giorgio Armani", "Unisex", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Prive-Vert-Malachite-34588.html"),
     new Perfume(35, "Imagination", "Louis Vuitton", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Louis-Vuitton/Imagination-67370.html"),
-    new Perfume(36, "Angels Share", "Kilian", "Unisex", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/By-Kilian/Angels-Share-62615.html", "sold"),
+    new Perfume(36, "Angels Share", "Kilian", "Unisex", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/By-Kilian/Angels-Share-62615.html",),
     new Perfume(37, "Pardon", "Nasomatto", "Hombre", "Calido especiado", "Tabaco", "https://www.fragrantica.es/perfume/Nasomatto/Pardon-12130.html"),
     new Perfume(38, "Oriana", "Parfums de Marly", "Mujer", "Dulce", "Citrico", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Oriana-69117.html"),
     new Perfume(39, "Carmina", "Creed", "Mujer", "Ambarado", "Floral", "https://www.fragrantica.es/perfume/Creed/Carmina-84206.html"),
@@ -73,7 +73,7 @@ const perfumes = [
     new Perfume(58, "Absolu Aventus", "Creed", "Hombre", "Citrico", "Calido especiado", "https://www.fragrantica.es/perfume/Creed/Absolu-Aventus-84112.html", "sold"),
     new Perfume(59, "By The Fireplace", "Maison Martin Margiela", "Unisex", "Amaderado", "Avainillado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/By-the-Fireplace-31623.html"),
     new Perfume(60, "Kirke", "Tiziana Terenzi", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tiziana-Terenzi/Kirke-32172.html"),
-    new Perfume(61, "Cedrat Boise", "Mancera", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Mancera/Cedrat-Boise-15211.html"),
+    new Perfume(61, "Cedrat Boise", "Mancera", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Mancera/Cedrat-Boise-15211.html", "sold"),
     new Perfume(62, "Terroni", "Orto Parisi", "Unisex", "Amaderado", "Ambarado", "https://www.fragrantica.es/perfume/Orto-Parisi/Terroni-45475.html"),
     new Perfume(63, "Greenley", "Parfums de Marly", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Greenley-62101.html"),
     new Perfume(64, "Flamenco", "Ramón Monegal", "Unisex", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Ramon-Monegal/Flamenco-44233.html"),
@@ -141,6 +141,10 @@ const perfumes = [
     new Perfume(127, "Narcotic Delight", "Initio", "Unisex", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Initio-Parfums-Prives/Narcotic-Delight-89368.html"),
     new Perfume(128, "Il Peace", "Ilmin", "Hombre", "Calido especiado", "Dulce", ""),
     new Perfume(129, "Attrape-Rêves", "Louis Vuitton", "Mujer", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Attrape-Reves-51016.html"),
+    new Perfume(130, "Roses Vanille", "Mancera", "Mujer", "Floral","Avainillado", "https://www.fragrantica.es/perfume/Mancera/Roses-Vanille-15210.html"),
+    new Perfume(131, "Cocktail Maracuja", "New Notes", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/New-Notes/Cocktail-Maracuja-83744.html"), 
+    new Perfume(132, "Tobacco Honey", "Guerlain", "Unisex", "Dulce", "Tabaco", "https://www.fragrantica.es/perfume/Guerlain/Tobacco-Honey-84518.html"), 
+    new Perfume(132, "Rolling in Love", "Kilian", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/By-Kilian/Rolling-in-Love-56402.html"), 
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

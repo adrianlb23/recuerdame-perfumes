@@ -70,7 +70,7 @@ const perfumes =[
     new Perfume(53, "Allure Blanche", "Chanel", "Citrico", "Avainillado", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Edition-Blanche-2653.html"),
     new Perfume(54, "Blue Seduction", "Antonio Banderas", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Antonio-Banderas/Blue-Seduction-1088.html"),
     new Perfume(55, "Allure Sport", "Chanel", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Sport-607.html"),
-    new Perfume(56, "L'Homme", "Prada", "Atalcado", "Amaderado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-39029.html"),
+    new Perfume(56, "L'Homme", "Prada", "Atalcado", "Amaderado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-39029.html", "sold"),
     new Perfume(57, "Chrome", "Azzaro", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Azzaro/Chrome-788.html"),
     new Perfume(58, "Dylan Blue", "Versace", "Aromatico", "Amaderado", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Homme-Dylan-Blue-40031.html"),
     new Perfume(59, "Xerius Rouge", "Givenchy", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Givenchy/Xeryus-Rouge-862.html"),
@@ -176,6 +176,7 @@ const perfumes =[
     new Perfume(159, "Impact", "Tommy Hilfiger", "Amaderado", "Citrico","https://www.fragrantica.es/perfume/Tommy-Hilfiger/Impact-59835.html"),
     new Perfume(160, "Eros Energy", "Versace", "Citrico", "Citrico","https://www.fragrantica.es/perfume/Versace/Eros-Energy-92647.html"),
     new Perfume(161, "The Most Wanted EDP Intense", "Azzaro", "Calido especiado", "Dulce","https://www.fragrantica.es/perfume/Azzaro/The-Most-Wanted-66826.html"),
+    new Perfume(162, "L'Homme Intense", "Prada", "Floral", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-Intense-45396.html")
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
