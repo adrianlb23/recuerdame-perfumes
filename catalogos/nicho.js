@@ -65,7 +65,7 @@ const perfumes = [
     new Perfume(50, "Love Don’t Be Shy", "Kilian", "Mujer", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/By-Kilian/Love-Don-t-Be-Shy-4322.html"),
     new Perfume(51, "Ani", "Nishane", "Unisex", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Nishane/Ani-54785.html"),
     new Perfume(52, "Vanilla Sex", "Tom Ford", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Vanilla-Sex-88588.html"),
-    new Perfume(53, "Bianco Latte", "Giardini Di Toscana", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Giardini-Di-Toscana/Bianco-Latte-64757.html"),
+    new Perfume(53, "Bianco Latte", "Giardini Di Toscana", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Giardini-Di-Toscana/Bianco-Latte-64757.html", "sold"),
     new Perfume(54, "Amore Caffé", "Mancera", "Unisex", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Mancera/Amore-Caffe-87409.html"),
     new Perfume(55, "Pegasus", "Parfums de Marly", "Hombre", "Avainillado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Pegasus-16938.html"),
     new Perfume(56, "Ege", "Nishane", "Unisex", "Verde", "Fresco especiado", "https://www.fragrantica.es/perfume/Nishane/EGE-AIGAIO-64092.html"),
@@ -76,9 +76,9 @@ const perfumes = [
     new Perfume(61, "Cedrat Boise", "Mancera", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Mancera/Cedrat-Boise-15211.html", "sold"),
     new Perfume(62, "Terroni", "Orto Parisi", "Unisex", "Amaderado", "Ambarado", "https://www.fragrantica.es/perfume/Orto-Parisi/Terroni-45475.html"),
     new Perfume(63, "Greenley", "Parfums de Marly", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Greenley-62101.html"),
-    new Perfume(64, "Flamenco", "Ramón Monegal", "Unisex", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Ramon-Monegal/Flamenco-44233.html"),
+    new Perfume(64, "Flamenco", "Ramón Monegal", "Unisex", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Ramon-Monegal/Flamenco-44233.html", "sold"),
     new Perfume(65, "Millésime Impérial", "Creed", "Unisex", "Marino", "Citrico", "https://www.fragrantica.es/perfume/Creed/Millesime-Imperial-466.html"),
-    new Perfume(66, "Bergamote 22", "Le Labo", "Unisex", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Le-Labo/Bergamote-22-6327.html"),
+    new Perfume(66, "Bergamote 22", "Le Labo", "Unisex", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Le-Labo/Bergamote-22-6327.html", "sold"),
     new Perfume(67, "Juniper Sling", "Penhaligon’s", "Unisex", "Aromático", "Fresco especiado", "https://www.fragrantica.es/perfume/Penhaligon-s/Juniper-Sling-13266.html"),
     new Perfume(68, "Matcha Meditation", "Maison Martin Margiela", "Unisex", "Floral", "Verde", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Matcha-Meditation-64805.html"),
     new Perfume(69, "Under The Lemon Tree", "Maison Martin Margiela", "Unisex", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Under-The-Lemon-Tree-53379.html"),
@@ -92,7 +92,7 @@ const perfumes = [
     new Perfume(77, "Sunshine Woman", "Amouage", "Mujer", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Amouage/Sunshine-Woman-28182.html"),
     new Perfume(78, "Yum Pistachio Gelatto", "Kayali", "Unisex", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Yum-Pistachio-Gelato-33-79846.html"),
     new Perfume(79, "Electric Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Electric-Cherry-78583.html"),
-    new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Pacific-Chill-81423.html"),
+    new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Pacific-Chill-81423.html", "sold"),
     new Perfume(81, "Vanille Absolu", "Montale", "Mujer", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Montale/Vanille-Absolu-4064.html"),
     new Perfume(82, "Tobacco Mandarin", "Byredo", "Unisex", "Fresco especiado", "Tabaco", "https://www.fragrantica.es/perfume/Byredo/Tobacco-Mandarin-63031.html"),
     new Perfume(83, "Kalan", "Parfums de Marly", "Unisex", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Kalan-56036.html"),
@@ -109,7 +109,7 @@ const perfumes = [
     new Perfume(94, "Ombre Nomade", "Louis Vuitton", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.com/perfume/Louis-Vuitton/Ombre-Nomade-49755.html"),
     new Perfume(95, "Hadar", "Spirit of Kings", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Spirit-Of-Kings/Hadar-58238.html"),
     new Perfume(96, "Perseus", "Parfums de Marly", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Perseus-90199.html"),
-    new Perfume(97, "Summer Hammer", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lorenzo-Pazzaglia/Summer-Hammer-81476.html"),
+    new Perfume(97, "Summer Hammer", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lorenzo-Pazzaglia/Summer-Hammer-81476.html", "sold"),
     new Perfume(98, "Grand Soir", "Maison Francis Kurkdjian", "Unisex", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Maison-Francis-Kurkdjian/Grand-Soir-40816.html"),
     new Perfume(99, "Jazz Club", "Maison Martin Margiela", "Hombre", "Tabaco", "Dulce", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Jazz-Club-20541.html"),
     new Perfume(100, "Torino 22", "Xerjoff", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Xerjoff/Torino22-77059.html", "sold"),
@@ -145,6 +145,7 @@ const perfumes = [
     new Perfume(131, "Cocktail Maracuja", "New Notes", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/New-Notes/Cocktail-Maracuja-83744.html"), 
     new Perfume(132, "Tobacco Honey", "Guerlain", "Unisex", "Dulce", "Tabaco", "https://www.fragrantica.es/perfume/Guerlain/Tobacco-Honey-84518.html"), 
     new Perfume(133, "Rolling in Love", "Kilian", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/By-Kilian/Rolling-in-Love-56402.html"), 
+    new Perfume(134, "Te Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html", "sold"), 
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -198,11 +199,9 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
             tr.classList.add('sold');
         }
 
-        // Redireccion a la página de detalles del perfume si está disponible
+        // Redireccion a la página de detalles del perfume
         tr.addEventListener('click', () => {
-            if (perfume.url && perfume.dispo !== 'sold') {
                 window.location.href = perfume.url;
-            }
         });
 
         const tdNumero = document.createElement('td');
