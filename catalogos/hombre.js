@@ -17,7 +17,7 @@ class Perfume {
 const perfumes =[
     new Perfume(1, "Paco Rabanne Pour Homme", "Paco Rabanne", "Fresco especiado", "Dulce", "https://www.fragrantica.es/perfume/Rabanne/Paco-Rabanne-Pour-Homme-526.html"),
     new Perfume(2, "Quorum", "Antonio Puig", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Antonio-Puig/Quorum-3825.html"),
-    new Perfume(3, "Jazz", "Yves Saint Laurent", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Jazz-2539.html", "sold"),
+    new Perfume(3, "Jazz", "Yves Saint Laurent", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Jazz-2539.html",),
     new Perfume(4, "Azzaro Pour Homme", "Azzaro", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Azzaro/Azzaro-pour-Homme-829.html"),
     new Perfume(5, "Polo Sport", "Ralph Lauren", "Citrico", "Aromatico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Sport-894.html"),
     new Perfume(6, "Carolina Herrera", "Carolina Herrera", "Floral", "Verde", "https://www.fragrantica.es/perfume/Carolina-Herrera/Carolina-Herrera-41888.html"),
@@ -140,7 +140,7 @@ const perfumes =[
     new Perfume(123, "Invictus Intense", "Paco Rabanne", "Ambarado", "Aromatico", "https://www.fragrantica.es/perfume/Rabanne/Invictus-Intense-42891.html"),
     new Perfume(124, "Scandal Le Parfum", "Jean Paul Gaultier", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Scandal-Pour-Homme-Le-Parfum-74915.html", "sold"),
     new Perfume(125, "Eros Flame", "Versace", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Versace/Eros-Flame-52180.html"),
-    new Perfume(126, "Le Male Elixir", "Jean Paul Gaultier", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-81642.html", "sold"),
+    new Perfume(126, "Le Male Elixir", "Jean Paul Gaultier", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-81642.html",),
     new Perfume(127, "Stronger With You Absolutely", "Giorgio Armani", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Absolutely-64501.html"),
     new Perfume(128, "Boss Bottled Elixir", "Hugo Boss", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Elixir-84074.html"),
     new Perfume(129, "L'Homme Idéal EDP", "Guerlain", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html"),
@@ -177,7 +177,7 @@ const perfumes =[
     new Perfume(160, "Eros Energy", "Versace", "Citrico", "Citrico","https://www.fragrantica.es/perfume/Versace/Eros-Energy-92647.html"),
     new Perfume(161, "The Most Wanted EDP Intense", "Azzaro", "Calido especiado", "Dulce","https://www.fragrantica.es/perfume/Azzaro/The-Most-Wanted-66826.html"),
     new Perfume(162, "L'Homme Intense", "Prada", "Floral", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-Intense-45396.html"),
-    new Perfume(163, "Wanted by Night", "Azzaro", "Calido especiado", "Frutal", "https://www.fragrantica.es/perfume/Azzaro/Wanted-by-Night-49144.html", "sold"),
+    new Perfume(163, "Wanted by Night", "Azzaro", "Calido especiado", "Frutal", "https://www.fragrantica.es/perfume/Azzaro/Wanted-by-Night-49144.html",),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

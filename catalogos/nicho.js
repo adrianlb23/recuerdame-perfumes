@@ -19,7 +19,7 @@ const perfumes = [
     new Perfume(4, "Tobacco Vanille", "Tom Ford", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Tobacco-Vanille-1825.html"),
     new Perfume(5, "Ombré Leather", "Tom Ford", "Unisex", "Cuero", "Amaderado", "https://www.fragrantica.es/perfume/Tom-Ford/Ombre-Leather-2018-50239.html"),
     new Perfume(6, "Erolfa", "Creed", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Creed/Erolfa-4248.html"),
-    new Perfume(7, "Musc Ravageur", "Frederic Malle", "Unisex", "Calido especiado", "Ambarado", "https://www.fragrantica.es/perfume/Frederic-Malle/Musc-Ravageur-1801.html", "sold"),
+    new Perfume(7, "Musc Ravageur", "Frederic Malle", "Unisex", "Calido especiado", "Ambarado", "https://www.fragrantica.es/perfume/Frederic-Malle/Musc-Ravageur-1801.html",),
     new Perfume(8, "Andrés Croxatto Man", "Andrés Croxatto", "Hombre", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Andres-Croxatto/Andres-Croxatto-Man-68880.html"),
     new Perfume(9, "Erba Pura", "Xerjoff", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Xerjoff/Erba-Pura-55157.html"),
     new Perfume(10, "Erba Pura Magica", "Sospiro Perfumes", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Sospiro-Perfumes/Erba-Pura-Magica-75942.html"),
@@ -65,7 +65,7 @@ const perfumes = [
     new Perfume(50, "Love Don’t Be Shy", "Kilian", "Mujer", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/By-Kilian/Love-Don-t-Be-Shy-4322.html"),
     new Perfume(51, "Ani", "Nishane", "Unisex", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Nishane/Ani-54785.html"),
     new Perfume(52, "Vanilla Sex", "Tom Ford", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Vanilla-Sex-88588.html"),
-    new Perfume(53, "Bianco Latte", "Giardini Di Toscana", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Giardini-Di-Toscana/Bianco-Latte-64757.html", "sold"),
+    new Perfume(53, "Bianco Latte", "Giardini Di Toscana", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Giardini-Di-Toscana/Bianco-Latte-64757.html",),
     new Perfume(54, "Amore Caffé", "Mancera", "Unisex", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Mancera/Amore-Caffe-87409.html"),
     new Perfume(55, "Pegasus", "Parfums de Marly", "Hombre", "Avainillado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Pegasus-16938.html"),
     new Perfume(56, "Ege", "Nishane", "Unisex", "Verde", "Fresco especiado", "https://www.fragrantica.es/perfume/Nishane/EGE-AIGAIO-64092.html"),
@@ -145,7 +145,7 @@ const perfumes = [
     new Perfume(131, "Cocktail Maracuja", "New Notes", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/New-Notes/Cocktail-Maracuja-83744.html"), 
     new Perfume(132, "Tobacco Honey", "Guerlain", "Unisex", "Dulce", "Tabaco", "https://www.fragrantica.es/perfume/Guerlain/Tobacco-Honey-84518.html"), 
     new Perfume(133, "Rolling in Love", "Kilian", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/By-Kilian/Rolling-in-Love-56402.html"), 
-    new Perfume(134, "Te Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html", "sold"), 
+    new Perfume(134, "Te Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html",), 
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
