@@ -68,7 +68,7 @@ const perfumes =[
     new Perfume(51, "The One", "Dolce & Gabbana", "Ambarado", "Calido especiado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/The-One-for-Men-2056.html"),
     new Perfume(52, "Boss Bottled", "Hugo Boss", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-383.html"),
     new Perfume(53, "Allure Blanche", "Chanel", "Citrico", "Avainillado", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Edition-Blanche-2653.html", "sold"),
-    new Perfume(54, "Blue Seduction", "Antonio Banderas", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Antonio-Banderas/Blue-Seduction-1088.html", "sold"),
+    new Perfume(54, "Bleu de Chanel", "Chanel", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Chanel/Bleu-de-Chanel-Parfum-49912.html", "sold"),
     new Perfume(55, "Allure Sport", "Chanel", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Sport-607.html"),
     new Perfume(56, "L'Homme", "Prada", "Atalcado", "Amaderado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-39029.html", "sold"),
     new Perfume(57, "Chrome", "Azzaro", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Azzaro/Chrome-788.html"),

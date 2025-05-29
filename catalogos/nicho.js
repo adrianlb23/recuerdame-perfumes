@@ -145,7 +145,7 @@ const perfumes = [
     new Perfume(131, "Cocktail Maracuja", "New Notes", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/New-Notes/Cocktail-Maracuja-83744.html"), 
     new Perfume(132, "Tobacco Honey", "Guerlain", "Unisex", "Dulce", "Tabaco", "https://www.fragrantica.es/perfume/Guerlain/Tobacco-Honey-84518.html"), 
     new Perfume(133, "Rolling in Love", "Kilian", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/By-Kilian/Rolling-in-Love-56402.html"), 
-    new Perfume(134, "Te Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html",), 
+    new Perfume(134, "The Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html",), 
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
