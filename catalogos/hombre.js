@@ -94,7 +94,7 @@ const perfumes =[
     new Perfume(77, "212 VIP Black", "Carolina Herrera", "Aromatico", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-VIP-Black-46093.html"),
     new Perfume(78, "Terre D’Hermes", "Hermès", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Hermes/Terre-d-Hermes-17.html", "sold"),
     new Perfume(79, "Oscar de la Renta", "Oscar de la Renta", "Aromatico", "Floral", "https://www.fragrantica.es/perfume/Oscar-de-la-Renta/Oscar-de-la-Renta-Pour-Lui-4542.html"),
-    new Perfume(80, "Luna Rossa Ocean", "Prada", "Fresco especiado", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Luna-Rossa-Carbon-43402.html"),
+    new Perfume(80, "Luna Rossa Ocean", "Prada", "Fresco especiado", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Luna-Rossa-Ocean-68753.html"),
     new Perfume(81, "Scandal Absolu", "Jean Paul Gaultier", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Scandal-Pour-Homme-Absolu-91053.html"),
     new Perfume(82, "Phantom", "Paco Rabanne", "Citrico", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Phantom-68226.html"),
     new Perfume(83, "Ralph’s Club", "Ralph Lauren", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Ralph-s-Club-68282.html"),

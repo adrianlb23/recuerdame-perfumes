@@ -60,7 +60,7 @@ const perfumes =[
     new Perfume(46, "212 Sexy", "Carolina Herrera", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-Sexy-306.html"),
     new Perfume(47, "Light Blue", "Dolce & Gabbana", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-485.html"),
     new Perfume(48, "Euphoria", "Calvin Klein", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Calvin-Klein/Euphoria-253.html"),
-    new Perfume(49, "Fantasy", "Britney Spears", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Britney-Spears/Fantasy-600.html",),
+    new Perfume(49, "Fantasy", "Britney Spears", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Britney-Spears/Fantasy-600.html"),
     new Perfume(50, "Curious", "Britney Spears", "Floral", "Dulce", "https://www.fragrantica.es/perfume/Britney-Spears/Curious-141.html"),
     new Perfume(51, "CH Woman", "Carolina Herrera", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-2015-31507.html"),
     new Perfume(52, "Olimpea", "Paco Rabanne", "Avainillado", "Ambarado", "https://www.fragrantica.es/perfume/Rabanne/Olympea-31666.html"),
