@@ -154,7 +154,7 @@ const perfumes =[
     new Perfume(137, "Y EDP Intense", "Yves Saint Laurent", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Y-Eau-de-Parfum-Intense-79243.html"),
     new Perfume(138, "Myslf", "Yves Saint Laurent", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/MYSLF-Eau-de-Parfum-84094.html", "sold"),
     new Perfume(139, "Invictus Parfum", "Paco Rabanne", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Rabanne/Invictus-Parfum-90433.html"),
-    new Perfume(140, "Polo 67", "Ralph Lauren", "Frutal", "Citrico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-67-90347.html", "sold"),
+    new Perfume(140, "Polo 67", "Ralph Lauren", "Frutal", "Citrico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-67-90347.html"),
     new Perfume(141, "Million Gold", "Paco Rabanne", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Rabanne/Million-Gold-95641.html"),
     new Perfume(142, "Le Male Le Parfum", "Jean Paul Gaultier", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Le-Parfum-61856.html"),
     new Perfume(143, "Play", "Givenchy", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Givenchy/Givenchy-Play-Eau-de-Toilette-3906.html"),
