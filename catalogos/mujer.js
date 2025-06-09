@@ -13,11 +13,11 @@ class Perfume {
 
 const perfumes =[
     new Perfume(1, "Calandre", "Paco Rabanne", "Verde", "Floral", "https://www.fragrantica.es/perfume/Rabanne/Calandre-522.html"),
-    new Perfume(2, "Cry Baby Perfume Milk", "Melanie Martinez", "Afrutado", "Dulce", "https://www.fragrantica.es/perfume/Melanie-Martinez/Cry-Baby-Perfume-Milk-41799.html", "sold"),
+    new Perfume(2, "Cry Baby Perfume Milk", "Melanie Martinez", "Afrutado", "Dulce", "https://www.fragrantica.es/perfume/Melanie-Martinez/Cry-Baby-Perfume-Milk-41799.html"),
     new Perfume(3, "Chanel No. 5", "Chanel", "Citrico", "Atalcado", "https://www.fragrantica.es/perfume/Chanel/Chanel-No-5-L-Eau-38543.html"),
     new Perfume(4, "Poison", "Dior", "Frutal", "Calido especiado", "https://www.fragrantica.es/perfume/Dior/Poison-218.html",),
     new Perfume(5, "Tresor", "Lancome", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Lancome/Tresor-172.html"),
-    new Perfume(6, "Poeme", "Lancome", "Floral", "Dulce", "https://www.fragrantica.es/perfume/Lancome/Tresor-172.html", "sold"),
+    new Perfume(6, "Poeme", "Lancome", "Floral", "Dulce", "https://www.fragrantica.es/perfume/Lancome/Tresor-172.html"),
     new Perfume(7, "Paloma Picasso", "Paloma Picasso", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Paloma-Picasso/Paloma-Picasso-1009.html"),
     new Perfume(8, "L’Eau D’Issey", "Issey Miyake", "Floral", "Fresco especiado", "https://www.fragrantica.es/perfume/Issey-Miyake/L-eau-d-Issey-720.html"),
     new Perfume(9, "Carolina Herrera", "Carolina Herrera", "Floral", "Fresco especiado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Carolina-Herrera-by-Carolina-Herrera-286.html"),
@@ -115,7 +115,7 @@ const perfumes =[
     new Perfume(101, "L’Impératrice 3", "Dolce & Gabbana", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Dolce-Gabbana/D-G-Anthology-L-Imperatrice-3-6086.html"),
     new Perfume(102, "My Way Intense", "Giorgio Armani", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Giorgio-Armani/My-Way-Intense-68596.html"),
     new Perfume(103, "Donna Born In Roma", "Valentino", "Ambarado", "Calido especiado", "https://www.fragrantica.es/perfume/Valentino/Valentino-Donna-Born-In-Roma-55805.html",),
-    new Perfume(104, "Her Elixir de Parfum", "Burberry", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Burberry/Burberry-Her-Elixir-de-Parfum-75968.html", "sold"),
+    new Perfume(104, "Her Elixir de Parfum", "Burberry", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Burberry/Burberry-Her-Elixir-de-Parfum-75968.html"),
     new Perfume(105, "Mod Vanilla", "Ariana Grande", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Ariana-Grande/Mod-Vanilla-77799.html"),
     new Perfume(106, "La Belle Le Parfum", "Jean Paul Gaultier", "Dulce", "Ambarado", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/La-Belle-Le-Parfum-65175.html"),
     new Perfume(107, "Crush Cheirosa 62'", "Sol de Janeiro", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Sol-de-Janeiro/Cheirosa-62-56062.html"),

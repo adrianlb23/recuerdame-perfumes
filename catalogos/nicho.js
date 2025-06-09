@@ -27,7 +27,7 @@ const perfumes = [
     new Perfume(12, "Delina", "Parfums de Marly", "Mujer", "Rosa", "Dulce", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Delina-43871.html"),
     new Perfume(13, "Black Orchid", "Tom Ford", "Mujer", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Tom-Ford/Black-Orchid-1018.html"),
     new Perfume(14, "Irish Leather", "Memo París", "Unisex", "Aromático", "Cuero", "https://www.fragrantica.es/perfume/Memo-Paris/Irish-Leather-18393.html"),
-    new Perfume(15, "Alexandria II", "Xerjoff", "Unisex", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/Xerjoff/Alexandria-II-17786.html"),
+    new Perfume(15, "Alexandria II", "Xerjoff", "Unisex", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Xerjoff/Alexandria-II-17786.html"),
     new Perfume(16, "Elisyum", "Roja Parfums", "Hombre", "Aromático", "Citrico", "https://www.fragrantica.es/perfume/Roja-Dove/Elysium-Pour-Homme-Parfum-Cologne-46296.html"),
     new Perfume(17, "Red Tobacco", "Mancera", "Unisex", "Calido especiado", "Tabaco", "https://www.fragrantica.es/perfume/Mancera/Red-Tobacco-46663.html"),
     new Perfume(18, "Interlude Man", "Amouage", "Hombre", "Ambarado", "Fresco especiado", "https://www.fragrantica.es/perfume/Amouage/Interlude-Man-15294.html"),
