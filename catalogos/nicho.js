@@ -91,7 +91,7 @@ const perfumes = [
     new Perfume(76, "Cassiopea", "Tiziana Terenzi", "Unisex", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Tiziana-Terenzi/Cassiopea-30624.html"),
     new Perfume(77, "Sunshine Woman", "Amouage", "Mujer", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Amouage/Sunshine-Woman-28182.html"),
     new Perfume(78, "Yum Pistachio Gelatto", "Kayali", "Unisex", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Yum-Pistachio-Gelato-33-79846.html"),
-    new Perfume(79, "Electric Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Electric-Cherry-78583.html"),
+    new Perfume(79, "Electric Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Electric-Cherry-78583.html", "sold"),
     new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Pacific-Chill-81423.html", "sold"),
     new Perfume(81, "Vanille Absolu", "Montale", "Mujer", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Montale/Vanille-Absolu-4064.html"),
     new Perfume(82, "Tobacco Mandarin", "Byredo", "Unisex", "Fresco especiado", "Tabaco", "https://www.fragrantica.es/perfume/Byredo/Tobacco-Mandarin-63031.html"),
@@ -147,6 +147,7 @@ const perfumes = [
     new Perfume(132, "Tobacco Honey", "Guerlain", "Unisex", "Dulce", "Tabaco", "https://www.fragrantica.es/perfume/Guerlain/Tobacco-Honey-84518.html"), 
     new Perfume(133, "Rolling in Love", "Kilian", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/By-Kilian/Rolling-in-Love-56402.html"), 
     new Perfume(134, "The Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html",), 
+    new Perfume(135, "Yum Boujee Marshmallow", "Kayali", "Mujer", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Yum-Boujee-Marshmallow-81-99254.html",), 
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
