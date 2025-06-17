@@ -13,11 +13,11 @@ class Perfume {
 }
 
 const perfumes = [
-    new Perfume(1, "Layton", "Parfums de Marly", "Unisex", "Calido especiado", "Dulce","https://www.fragrantica.es/perfume/Parfums-de-Marly/Layton-39314.html"),
+    new Perfume(1, "Layton", "Parfums de Marly", "Unisex", "Calido especiado", "Fresco especiado","https://www.fragrantica.es/perfume/Parfums-de-Marly/Layton-39314.html"),
     new Perfume(2, "Aventus", "Creed", "Hombre", "Frutal", "Citrico","https://www.fragrantica.es/perfume/Creed/Aventus-9828.html"),
-    new Perfume(3, "Neroli Portofino", "Tom Ford", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Tom-Ford/Neroli-Portofino-12192.html"),
-    new Perfume(4, "Tobacco Vanille", "Tom Ford", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Tobacco-Vanille-1825.html", "sold"),
-    new Perfume(5, "Ombré Leather", "Tom Ford", "Unisex", "Cuero", "Amaderado", "https://www.fragrantica.es/perfume/Tom-Ford/Ombre-Leather-2018-50239.html"),
+    new Perfume(3, "Neroli Portofino", "Tom Ford", "Unisex", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Tom-Ford/Neroli-Portofino-12192.html"),
+    new Perfume(4, "Tobacco Vanille", "Tom Ford", "Unisex", "Avainillado", "Tabaco", "https://www.fragrantica.es/perfume/Tom-Ford/Tobacco-Vanille-1825.html", "sold"),
+    new Perfume(5, "Ombré Leather", "Tom Ford", "Unisex", "Cuero", "Aromatico", "https://www.fragrantica.es/perfume/Tom-Ford/Ombre-Leather-2018-50239.html"),
     new Perfume(6, "Erolfa", "Creed", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Creed/Erolfa-4248.html"),
     new Perfume(7, "Musc Ravageur", "Frederic Malle", "Unisex", "Calido especiado", "Ambarado", "https://www.fragrantica.es/perfume/Frederic-Malle/Musc-Ravageur-1801.html",),
     new Perfume(8, "Andrés Croxatto Man", "Andrés Croxatto", "Hombre", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Andres-Croxatto/Andres-Croxatto-Man-68880.html"),
@@ -34,7 +34,7 @@ const perfumes = [
     new Perfume(19, "Invite Only Amber 23", "Kayali", "Unisex", "Dulce", "Ambarado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Invite-Only-Amber-23-68958.html"),
     new Perfume(20, "Baccarat Rouge 540", "Maison Francis Kurkdijan", "Unisex", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html"),
     new Perfume(21, "Creed for Her", "Creed", "Mujer", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Creed/Aventus-for-Her-38497.html"),
-    new Perfume(22, "Black Phantom", "Kilian", "Unisex", "Dulce", "Amaderado", "https://www.fragrantica.es/perfume/By-Kilian/Black-Phantom-43632.html"),
+    new Perfume(22, "Black Phantom", "Kilian", "Unisex", "Dulce", "Calido especiado", "https://www.fragrantica.es/perfume/By-Kilian/Black-Phantom-43632.html"),
     new Perfume(23, "L’Immensité", "Louis Vuitton", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Louis-Vuitton/L-Immensite-49751.html"),
     new Perfume(24, "Santal 33", "Le Labo", "Unisex", "Amaderado", "Aromático", "https://www.fragrantica.es/perfume/Le-Labo/Santal-33-12201.html"),
     new Perfume(25, "Tygar", "Bvlgari", "Hombre", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Bvlgari/Tygar-41222.html"),
@@ -95,7 +95,7 @@ const perfumes = [
     new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Pacific-Chill-81423.html", "sold"),
     new Perfume(81, "Vanille Absolu", "Montale", "Mujer", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Montale/Vanille-Absolu-4064.html"),
     new Perfume(82, "Tobacco Mandarin", "Byredo", "Unisex", "Fresco especiado", "Tabaco", "https://www.fragrantica.es/perfume/Byredo/Tobacco-Mandarin-63031.html"),
-    new Perfume(83, "Kalan", "Parfums de Marly", "Unisex", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Kalan-56036.html"),
+    new Perfume(83, "Kalan", "Parfums de Marly", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Kalan-56036.html"),
     new Perfume(84, "Intense Café", "Montale", "Unisex", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Montale/Intense-Cafe-18021.html"),
     new Perfume(85, "Delina Exclusif", "Parfums de Marly", "Mujer", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"),
     new Perfume(86, "Milk", "Commodity", "Unisex", "Dulce", "Amaderado", "https://www.fragrantica.es/perfume/Commodity/Milk-69191.html"),
@@ -154,16 +154,22 @@ document.addEventListener('DOMContentLoaded', () => {
     mostrarPerfumes();
 
     document.querySelectorAll('input[name="aroma"]').forEach(radio => {
-        radio.addEventListener('change', actualizarTabla);
+        radio.addEventListener('change', actualizarPerfumes);
     });
 
-    const searchInput = document.getElementById('search-input-nicho');
-    searchInput.addEventListener('input', actualizarTabla);
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('input', actualizarPerfumes);
+    
+    // Si existe el botón de búsqueda, añadir evento
+    const searchBtn = document.querySelector('.search-btn');
+    if(searchBtn) {
+        searchBtn.addEventListener('click', actualizarPerfumes);
+    }
 });
 
-function actualizarTabla() {
+function actualizarPerfumes() {
     const tipoSeleccionado = document.querySelector('input[name="aroma"]:checked');
-    const searchValue = document.getElementById('search-input-nicho').value.trim().toLowerCase();
+    const searchValue = document.getElementById('search-input').value.trim().toLowerCase();
 
     let perfumesFiltrados = perfumes;
 
@@ -177,7 +183,9 @@ function actualizarTabla() {
     if (searchValue) {
         perfumesFiltrados = perfumesFiltrados.filter(perfume =>
             perfume.nombre.toLowerCase().includes(searchValue) ||
-            perfume.marca.toLowerCase().includes(searchValue)
+            perfume.marca.toLowerCase().includes(searchValue) ||
+            (perfume.tipo && perfume.tipo.toLowerCase().includes(searchValue)) ||
+            (perfume.tipo2 && perfume.tipo2.toLowerCase().includes(searchValue))
         );
     }
 
@@ -185,53 +193,131 @@ function actualizarTabla() {
 }
 
 function mostrarPerfumes(perfumesFiltrados = perfumes) {
-    const tbody = document.getElementById('perfume-body');
-    tbody.innerHTML = '';
+    const perfumeGrid = document.getElementById('perfume-grid');
+    perfumeGrid.innerHTML = '';
 
     if (perfumesFiltrados.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="5">No se encontraron perfumes.</td></tr>';
+        perfumeGrid.innerHTML = '<div class="no-results">No se encontraron perfumes que coincidan con tu búsqueda.</div>';
         return;
     }
 
     perfumesFiltrados.forEach(perfume => {
-        const tr = document.createElement('tr');
-
+        const card = document.createElement('div');
+        card.className = 'perfume-card';
+        
         // Si el perfume está agotado, aplicar clase "sold"
         if (perfume.dispo === 'sold') {
-            tr.classList.add('sold');
+            card.classList.add('sold');
         }
 
-        // Redireccion a la página de detalles del perfume
-        tr.addEventListener('click', () => {
-                window.location.href = perfume.url;
+        // Header de la tarjeta
+        const cardHeader = document.createElement('div');
+        cardHeader.className = 'card-header';
+        
+        const perfumeNumber = document.createElement('span');
+        perfumeNumber.className = 'perfume-number';
+        perfumeNumber.textContent = perfume.numero;
+        cardHeader.appendChild(perfumeNumber);
+        
+        const perfumeName = document.createElement('h3');
+        perfumeName.className = 'perfume-name';
+        perfumeName.textContent = perfume.nombre;
+        cardHeader.appendChild(perfumeName);
+        
+        const perfumeGender = document.createElement('span');
+        perfumeGender.className = 'perfume-gender';
+        perfumeGender.textContent = perfume.genero;
+        cardHeader.appendChild(perfumeGender);
+        
+        card.appendChild(cardHeader);
+
+        // Body de la tarjeta
+        const cardBody = document.createElement('div');
+        cardBody.className = 'card-body';
+        
+        const perfumeHouse = document.createElement('p');
+        perfumeHouse.className = 'perfume-house';
+        perfumeHouse.textContent = perfume.marca;
+        cardBody.appendChild(perfumeHouse);
+        
+        const perfumeNotes = document.createElement('div');
+        perfumeNotes.className = 'perfume-notes';
+        
+        if(perfume.tipo) {
+            const noteTag1 = document.createElement('span');
+            noteTag1.className = 'note-tag';
+            noteTag1.textContent = perfume.tipo;
+            perfumeNotes.appendChild(noteTag1);
+        }
+        
+        if(perfume.tipo2) {
+            const noteTag2 = document.createElement('span');
+            noteTag2.className = 'note-tag';
+            noteTag2.textContent = perfume.tipo2;
+            perfumeNotes.appendChild(noteTag2);
+        }
+        
+        cardBody.appendChild(perfumeNotes);
+        card.appendChild(cardBody);
+
+        // Footer de la tarjeta
+        const cardFooter = document.createElement('div');
+        cardFooter.className = 'card-footer';
+        
+        const detailsBtn = document.createElement('button');
+        detailsBtn.className = 'details-btn';
+        detailsBtn.innerHTML = '<i class="fas fa-info-circle"></i> Ver detalles';
+        
+        // Redirección a la página de detalles del perfume
+        detailsBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if(perfume.url) {
+                window.open(perfume.url, '_blank');
+            }
+        });
+        
+        cardFooter.appendChild(detailsBtn);
+        card.appendChild(cardFooter);
+
+        // Click en toda la tarjeta también redirige
+        card.addEventListener('click', () => {
+            if(perfume.url) {
+                window.open(perfume.url, '_blank');
+            }
         });
 
-        const tdNumero = document.createElement('td');
-        tdNumero.textContent = perfume.numero;
-        tr.appendChild(tdNumero);
-
-        const tdNombre = document.createElement('td');
-        tdNombre.textContent = perfume.nombre;
-        tr.appendChild(tdNombre);
-
-        const tdMarca = document.createElement('td');
-        tdMarca.textContent = perfume.marca;
-        tr.appendChild(tdMarca);
-
-        const tdGenero = document.createElement('td');
-        tdGenero.textContent = perfume.genero;
-        tr.appendChild(tdGenero);
-
-        tbody.appendChild(tr);
+        perfumeGrid.appendChild(card);
     });
 }
+document.addEventListener('DOMContentLoaded', () => {
+    mostrarPerfumes();
 
-
+    // Configurar el toggle de filtros para móviles
+    const filterToggle = document.getElementById('filter-toggle');
+    const filterOptions = document.getElementById('filter-options');
+    
+    if(filterToggle && filterOptions) {
+        filterToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            filterOptions.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+        
+        // Cerrar filtros al hacer clic fuera
+        document.addEventListener('click', function() {
+            filterOptions.classList.remove('active');
+            filterToggle.classList.remove('active');
+        });
+        
+        // Evitar que el clic en los filtros los cierre
+        filterOptions.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+    }
+});
 function deseleccionarRadios() {
     const radios = document.querySelectorAll('input[name="aroma"]');
     radios.forEach(radio => radio.checked = false);
-    mostrarPerfumes();
+    actualizarPerfumes();
 }
-
-
 

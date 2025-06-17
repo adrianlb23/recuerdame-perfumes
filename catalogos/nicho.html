@@ -4,101 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicho</title>
-    <link rel="stylesheet" href="/catalogos/catalogos.css">
+    <title>Nicho | Perfumería Recuérdame</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/catalogos/catalogos.css">
     <link rel="icon" href="/img/logo.png" type="image/x-icon">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-
 </head>
 
 <body>
-
-    <header>
-        <div class="logo">
-            <img class="logo-img" src="/img/logo.png" alt="Logo" onclick="location.href='/index.html'"">
+    <header class="modern-header">
+        <div class="logo-container">
+            <img class="logo-img" src="/img/logo.png" alt="Logo" onclick="location.href='/index.html'">
             <h1>Perfumería Recuérdame</h1>
         </div>
-        <button id="abrir" class="abrir-menu">Menú</i></button>
-            <nav class="nav" id="nav">
-                <button class="cerrar-menu" id="cerrar">Cerrar</i></button>
-                <ul class="nav-list">
-                    <li><a href="/catalogos/hombre.html">Catálogo Masculino</a></li>
-                    <li><a href="/catalogos/mujer.html">Catálogo Femenino</a></li>
-                    <li><a href="/catalogos/nicho.html" class="active">Catálogo Nicho</a></li>
-                    <li><a href="/precios/precios.html">Precios</a></li>
-                    <li><a href="/promociones/promociones.html">Novedades</a></li>
-                </ul>
-            </nav>
+        <button id="abrir" class="abrir-menu"><i class="fas fa-bars"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="fas fa-times"></i></button>
+            <ul class="nav-list">
+                <li><a href="/catalogos/hombre.html">Masculino</a></li>
+                <li><a href="/catalogos/mujer.html">Femenino</a></li>
+                <li><a href="/catalogos/nicho.html" class="active">Nicho</a></li>
+                <li><a href="/precios/precios.html">Precios</a></li>
+                <li><a href="/promociones/promociones.html">Novedades</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <h1>Catálogo Nicho</h1>
-        <p class="parrafo-aclaracion">
-            NUESTRA MARCA NO ESTÁ ASOCIADA A NINGUNA CASA DE PERFUMES INTERNACIONAL, Y SÓLO UTILIZAMOS LOS NOMBRES DE
-            LAS
-            FRAGANCIAS PARA INDICAR LA TENEDENCIA OLFATIVA. <br><b>PULSA LA FRAGANCIA PARA VER LA
-            INFORMACIÓN.</b>
-        </p>
-        <div class="search-container">
-            <label for="search-input">Buscar perfume:</label>
-            <input type="text" id="search-input-nicho" placeholder="Buscar por nombre o marca...">
-        </div>
-        <div class="filter-container">
-            <p>Filtrar por tipo de aroma:</p>
-            <div class="filter-options">
-                <label><input type="radio" name="aroma" id="aroma-verde" value="Verde"> Verde</label>
-                <label><input type="radio" name="aroma" id="aroma-frutal" value="Frutal"> Frutal</label>
-                <label><input type="radio" name="aroma" id="aroma-citrico" value="Citrico"> Cítrico</label>
-                <label><input type="radio" name="aroma" id="aroma-amaderado" value="Amaderado"> Amaderado</label>
-                <label><input type="radio" name="aroma" id="aroma-floral" value="Floral"> Floral</label>
-                <label><input type="radio" name="aroma" id="aroma-marino" value="Marino"> Marino</label>
-                <label><input type="radio" name="aroma" id="aroma-aromatico" value="Aromático"> Aromático</label>
-                <label><input type="radio" name="aroma" id="aroma-dulce" value="Dulce"> Dulce</label>
-                <label><input type="radio" name="aroma" id="aroma-vanillado" value="Avainillado"> Avainillado</label>
-                <label><input type="radio" name="aroma" id="aroma-fresco-especiado" value="Fresco especiado"> Fresco especiado</label>
-                <label><input type="radio" name="aroma" id="aroma-calido-especiado" value="Calido especiado"> Cálido especiado</label>
-                <label><input type="radio" name="aroma" id="aroma-ambarado" value="Ambarado"> Ambarado</label>
-                <label><input type="radio" name="aroma" id="aroma-tabaco" value="Tabaco"> Tabaco</label>
-            </div>
-        </div>
-        <button onclick="deseleccionarRadios()" class="limpiar-btn">Limpiar</button>
-        <div class="table-container">
-            <table class="nicho-table">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Perfume</th>
-                        <th>Casa perfumista</th>
-                        <th>Género</th>
-                    </tr>
-                </thead>
-                <tbody id="perfume-body">
-                    <!-- Los perfumes se insertarán aquí dinámicamente -->
-                </tbody>
-            </table>
+    <main class="modern-main">
+        <section class="hero-section">
+            <h1 class="modern-title">Catálogo Nicho</h1>
+            <p class="hero-description">
+                Descubre nuestras exclusivas fragancias de nicho inspiradas en las tendencias olfativas más selectas
+            </p>
+        </section>
+
+        <div class="disclaimer-box">
+            <p>
+                <strong>Nota importante:</strong> NUESTRA MARCA NO ESTÁ ASOCIADA A NINGUNA CASA DE PERFUMES INTERNACIONAL. 
+                UTILIZAMOS LOS NOMBRES DE LAS FRAGANCIAS SOLO PARA INDICAR LA TENDENCIA OLFATIVA.
+            </p>
         </div>
         
-        <div class="botones-container">
-            <p>Los productos marcados con color rojo se encuentran fuera de stock o están por llegar.</p>       
-            <div class="botones">
-                <button onclick="location.href='/index.html'">Inicio</button>
-                <button onclick="location.href='../precios/precios.html'">Precios</button>
+
+        <section class="search-section">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Buscar por nombre, marca o notas olfativas...">
+                    <button class="search-btn">Buscar</button>
+                </div>
             </div>
+        </section>
+
+        <section class="filter-section">
+            <div class="filter-header">
+                <h3>Filtrar por familia olfativa</h3>
+                <button class="filter-toggle" id="filter-toggle">
+                    <i class="fas fa-sliders-h"></i> Filtros
+                </button>
+            </div>
+            
+            <div class="filter-options-container" id="filter-options">
+                <div class="filter-grid">
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Verde">
+                        <span>Verde</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Frutal">
+                        <span>Frutal</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Citrico">
+                        <span>Cítrico</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Amaderado">
+                        <span>Amaderado</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Floral">
+                        <span>Floral</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Marino">
+                        <span>Marino</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Aromático">
+                        <span>Aromático</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Dulce">
+                        <span>Dulce</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Avainillado">
+                        <span>Avainillado</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Fresco especiado">
+                        <span>Fresco especiado</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Calido especiado">
+                        <span>Cálido especiado</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Ambarado">
+                        <span>Ambarado</span>
+                    </label>
+                    <label class="filter-tag">
+                        <input type="radio" name="aroma" value="Tabaco">
+                        <span>Tabaco</span>
+                    </label>
+                </div>
+                <button class="clear-filters" onclick="deseleccionarRadios()">
+                    <i class="fas fa-times"></i> Limpiar filtros
+                </button>
+            </div>
+        </section>
+        <div class="action-buttons">
+            <button class="btn-secondary" onclick="location.href='/index.html'">
+                <i class="fas fa-home"></i> Inicio
+            </button>
+            <button class="btn-primary" onclick="location.href='../precios/precios.html'">
+                <i class="fas fa-tags"></i> Ver precios
+            </button>
         </div>
+
+        <section class="perfume-grid" id="perfume-grid">
+            
+        </section>
+
+        <div class="stock-notice">
+            <p><i class="fas fa-exclamation-circle"></i> Los productos marcados en rojo están fuera de stock o próximos a llegar.</p>
+        </div>
+
+        
     </main>
 
-    <footer>
+    <footer class="modern-footer">
         <div class="footer-content">
-            <div class="contact-info">
-                <p>Contacto: +56 9 6547 2295 | perfumesrecuerdame@gmail.com</p>
-                <p>Dirección: 📍Persa Víctor Manuel: Galería La Curtiembre</p>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-phone-alt"></i> +56 9 6547 2295</p>
+                <p><i class="fas fa-envelope"></i> perfumesrecuerdame@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Persa Víctor Manuel: Galería La Curtiembre</p>
             </div>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/perfumeriarecuerdame/" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/perfumeriarecuerdame/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
@@ -109,5 +169,4 @@
     <script src="/script.js"></script>
     <script src="/catalogos/nicho.js"></script>
 </body>
-
 </html>
