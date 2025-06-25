@@ -148,6 +148,7 @@ const perfumes = [
     new Perfume(133, "Rolling in Love", "Kilian", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/By-Kilian/Rolling-in-Love-56402.html"), 
     new Perfume(134, "The Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html",), 
     new Perfume(135, "Yum Boujee Marshmallow", "Kayali", "Mujer", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Yum-Boujee-Marshmallow-81-99254.html",), 
+    new Perfume(136, "Météore", "Louis Vuitton", "Hombre", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Meteore-62251.html",), 
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
