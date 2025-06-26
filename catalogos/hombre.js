@@ -234,7 +234,7 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
 
         // Redireccion a la página de detalles del perfume
         tr.addEventListener('click', () => {
-                window.location.href = perfume.url;
+                window.open(perfume.url, '_blank', 'noopener,noreferrer');
         });
 
         const tdNumero = document.createElement('td');
