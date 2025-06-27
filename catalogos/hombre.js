@@ -30,7 +30,7 @@ const perfumes =[
     new Perfume(13, "Eternity", "Calvin Klein", "Citrico", "Aromatico", "https://www.fragrantica.es/perfume/Calvin-Klein/Eternity-For-Men-258.html"),
     new Perfume(14, "Polo Green", "Ralph Lauren", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-890.html"),
     new Perfume(15, "212", "Carolina Herrera", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-Men-297.html"),
-    new Perfume(16, "XS", "Rabanne", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Rabanne/XS-2018-49962.html", "sold"),
+    new Perfume(16, "XS", "Rabanne", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Rabanne/XS-2018-49962.html",),
     new Perfume(17, "Hugo Boss (Cantimplora)", "Hugo Boss", "Fresco especiado", "Aromatico", "https://www.fragrantica.es/perfume/Hugo-Boss/Hugo-570.html"),
     new Perfume(18, "Pino Silvestre", "Lino Vidal", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Pino-Silvestre/Pino-Silvestre-Original-1522.html"),
     new Perfume(19, "The Most Wanted Parfum", "Azzaro", "Amaderado", "Avainillado", "https://www.fragrantica.es/perfume/Azzaro/The-Most-Wanted-Parfum-73664.html"),

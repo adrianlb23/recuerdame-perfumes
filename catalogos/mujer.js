@@ -51,7 +51,7 @@ const perfumes =[
     new Perfume(37, "Ultraviolet", "Rabanne", "Floral", "Calido especiado", "https://www.fragrantica.es/perfume/Rabanne/Ultraviolet-519.html"),
     new Perfume(38, "212 VIP Rosé", "Carolina Herrera", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-VIP-Rose-22857.html"),
     new Perfume(39, "Elixir des Merveilles", "Hermès", "Ambarado", "Calido especiado", "https://www.fragrantica.es/perfume/Hermes/Elixir-des-Merveilles-3168.html"),
-    new Perfume(40, "DKNY Women", "Donna Karan", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Donna-Karan/DKNY-Women-504.html", "sold"),
+    new Perfume(40, "DKNY Women", "Donna Karan", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Donna-Karan/DKNY-Women-504.html"),
     new Perfume(41, "Si", "Giorgio Armani", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Giorgio-Armani/Si-18453.html"),
     new Perfume(42, "Halloween", "Jesús del Pozo", "Floral", "Calido especiado", "https://www.fragrantica.es/perfume/Halloween/Halloween-1444.html"),
     new Perfume(43, "Amor Amor", "Cacharel", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Cacharel/Amor-Amor-238.html"),
