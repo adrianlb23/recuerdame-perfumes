@@ -179,7 +179,7 @@ const perfumes =[
     new Perfume(162, "L'Homme Intense", "Prada", "Floral", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-Intense-45396.html"),
     new Perfume(163, "Wanted by Night", "Azzaro", "Calido especiado", "Frutal", "https://www.fragrantica.es/perfume/Azzaro/Wanted-by-Night-49144.html",),
     new Perfume(164, "Gentleman Society", "Givenchy", "Aromático", "Amadarado", "https://www.fragrantica.es/perfume/Givenchy/Gentleman-Society-78639.html",),
-    new Perfume(165, "Born in Roma Green Stravaganza", "Valentino", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-in-Roma-Green-Stravaganza-88989.html", "sold"),
+    new Perfume(165, "Born in Roma Green Stravaganza", "Valentino", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-in-Roma-Green-Stravaganza-88989.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
