@@ -80,7 +80,7 @@ const perfumes = [
     new Perfume(65, "Millésime Impérial", "Creed", "Unisex", "Marino", "Citrico", "https://www.fragrantica.es/perfume/Creed/Millesime-Imperial-466.html"),
     new Perfume(66, "Bergamote 22", "Le Labo", "Unisex", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Le-Labo/Bergamote-22-6327.html", "sold"),
     new Perfume(67, "Juniper Sling", "Penhaligon’s", "Unisex", "Aromático", "Fresco especiado", "https://www.fragrantica.es/perfume/Penhaligon-s/Juniper-Sling-13266.html"),
-    new Perfume(68, "Matcha Meditation", "Maison Martin Margiela", "Unisex", "Floral", "Verde", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Matcha-Meditation-64805.html"),
+    new Perfume(68, "Matcha Meditation", "Maison Martin Margiela", "Unisex", "Floral", "Verde", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Matcha-Meditation-64805.html", "sold"),
     new Perfume(69, "Under The Lemon Tree", "Maison Martin Margiela", "Unisex", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Under-The-Lemon-Tree-53379.html"),
     new Perfume(70, "Silver Mountain Water", "Creed", "Unisex", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Creed/Silver-Mountain-Water-472.html"),
     new Perfume(71, "Bleecker Street", "Bond No. 9", "Unisex", "Frutal", "Aromático", "https://www.fragrantica.es/perfume/Bond-No-9/Bleecker-Street-1301.html"),
@@ -104,7 +104,7 @@ const perfumes = [
     new Perfume(89, "Oud Maracujá", "Maison Crivelli", "Unisex", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Maison-Crivelli/Oud-Maracuja-83842.html"),
     new Perfume(90, "Can’t Stop Loving You", "Kilian", "Mujer", "Floral", "Dulce", "https://www.fragrantica.es/perfume/By-Kilian/Can-t-Stop-Loving-You-78735.html"),
     new Perfume(91, "Lafayette Street", "Bond No. 9", "Unisex", "Ambarado", "Avainillado", "https://www.fragrantica.es/perfume/Bond-No-9/Lafayette-Street-51742.html", "sold"),
-    new Perfume(92, "God Of Fire", "Stephane Humbert Lucas 777", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Stephane-Humbert-Lucas-777/God-of-Fire-72381.html", "sold"),
+    new Perfume(92, "God Of Fire", "Stephane Humbert Lucas 777", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Stephane-Humbert-Lucas-777/God-of-Fire-72381.html"),
     new Perfume(93, "Smoking Hot", "Kilian", "Unisex", "Tabaco", "Frutal", "https://www.fragrantica.es/perfume/By-Kilian/Smoking-Hot-84413.html", "sold"),
     new Perfume(94, "Ombre Nomade", "Louis Vuitton", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.com/perfume/Louis-Vuitton/Ombre-Nomade-49755.html"),
     new Perfume(95, "Hadar", "Spirit of Kings", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Spirit-Of-Kings/Hadar-58238.html"),
@@ -149,6 +149,7 @@ const perfumes = [
     new Perfume(134, "The Matcha 26", "Le Labo", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Le-Labo/The-Matcha-26-69731.html",), 
     new Perfume(135, "Yum Boujee Marshmallow", "Kayali", "Mujer", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Yum-Boujee-Marshmallow-81-99254.html",), 
     new Perfume(136, "Météore", "Louis Vuitton", "Hombre", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Meteore-62251.html",), 
+    new Perfume(137, "Red Tobacco Intense", "Mancera", "Unisex", "Calido especiado", "Tabaco", "https://www.fragrantica.es/perfume/Mancera/Red-Tobacco-Intense-84246.html"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

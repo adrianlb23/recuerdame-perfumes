@@ -67,10 +67,10 @@ const perfumes =[
     new Perfume(50, "Insense Ultramarine", "Givenchy", "Verde", "Aromatico", "https://www.fragrantica.es/perfume/Givenchy/Insense-Ultramarine-858.html"),
     new Perfume(51, "The One", "Dolce & Gabbana", "Ambarado", "Calido especiado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/The-One-for-Men-2056.html"),
     new Perfume(52, "Boss Bottled", "Hugo Boss", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-383.html"),
-    new Perfume(53, "Allure Blanche", "Chanel", "Citrico", "Avainillado", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Edition-Blanche-2653.html", "sold"),
+    new Perfume(53, "Allure Blanche", "Chanel", "Citrico", "Avainillado", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Edition-Blanche-2653.html"),
     new Perfume(54, "Bleu de Chanel Parfum", "Chanel", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Chanel/Bleu-de-Chanel-Parfum-49912.html"),
     new Perfume(55, "Allure Sport", "Chanel", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Chanel/Allure-Homme-Sport-607.html"),
-    new Perfume(56, "L'Homme", "Prada", "Atalcado", "Amaderado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-39029.html", "sold"),
+    new Perfume(56, "L'Homme", "Prada", "Atalcado", "Amaderado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-39029.html"),
     new Perfume(57, "Chrome", "Azzaro", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Azzaro/Chrome-788.html"),
     new Perfume(58, "Dylan Blue", "Versace", "Aromatico", "Amaderado", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Homme-Dylan-Blue-40031.html"),
     new Perfume(59, "Xerius Rouge", "Givenchy", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Givenchy/Xeryus-Rouge-862.html"),
@@ -159,7 +159,7 @@ const perfumes =[
     new Perfume(142, "Le Male Le Parfum", "Jean Paul Gaultier", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Le-Parfum-61856.html"),
     new Perfume(143, "Play", "Givenchy", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Givenchy/Givenchy-Play-Eau-de-Toilette-3906.html"),
     new Perfume(144, "Light Blue Italian Love", "Dolce & Gabbana", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-pour-Homme-Italian-Love-72622.html"),
-    new Perfume(145, "Gentleman Reserve Privée", "Givenchy", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Givenchy/Gentleman-Eau-de-Parfum-Reserve-Privee-71272.html"),
+    new Perfume(145, "Gentleman Reserve Privée", "Givenchy", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Givenchy/Gentleman-Eau-de-Parfum-Reserve-Privee-71272.html", "sold"),
     new Perfume(146, "Boss The Scent", "Hugo Boss", "Citrico", "Calido especiado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-The-Scent-31445.html"),
     new Perfume(147, "Polo Black", "Ralph Lauren", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Black-1197.html"),
     new Perfume(148, "Halloween Man", "Halloween", "Calido especiado", "Citrico", "https://www.fragrantica.es/perfume/Halloween/Halloween-Man-15148.html"),
@@ -180,6 +180,8 @@ const perfumes =[
     new Perfume(163, "Wanted by Night", "Azzaro", "Calido especiado", "Frutal", "https://www.fragrantica.es/perfume/Azzaro/Wanted-by-Night-49144.html",),
     new Perfume(164, "Gentleman Society", "Givenchy", "Aromático", "Amadarado", "https://www.fragrantica.es/perfume/Givenchy/Gentleman-Society-78639.html",),
     new Perfume(165, "Born in Roma Green Stravaganza", "Valentino", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-in-Roma-Green-Stravaganza-88989.html"),
+    new Perfume(166, "Acqua di Gio Blue Edition", "Giorgio Armani", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Blue-Edition-Pour-Homme-25615.html"),
+    new Perfume(167, "Bad Boy Cobalt Elixir", "Carolina Herrera", "Fresco especiado", "Avainillado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Bad-Boy-Cobalt-Elixir-89374.html")
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

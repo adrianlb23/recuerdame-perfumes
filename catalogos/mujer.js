@@ -34,7 +34,7 @@ const perfumes =[
     new Perfume(20, "Hugo Woman", "Hugo Boss", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Hugo-Boss/Hugo-Woman-380.html"),
     new Perfume(21, "Black Opium", "Yves Saint Laurent", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Black-Opium-25324.html"),
     new Perfume(22, "O", "Lancome", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Lancome/O-de-Lancome-187.html"),
-    new Perfume(23, "Oscar", "Oscar de la Renta", "Floral", "Atalcado", "https://www.fragrantica.es/perfume/Oscar-de-la-Renta/Oscar-1131.html", "sold"),
+    new Perfume(23, "Oscar", "Oscar de la Renta", "Floral", "Atalcado", "https://www.fragrantica.es/perfume/Oscar-de-la-Renta/Oscar-1131.html"),
     new Perfume(24, "Angel", "Thierry Mugler", "Dulce", "Amaderado", "https://www.fragrantica.es/perfume/Mugler/Angel-704.html"),
     new Perfume(25, "Hypnotic", "Dior", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Dior/Hypnotic-Poison-Eau-Sensuelle-9600.html", "sold"),
     new Perfume(26, "The One", "Dolce & Gabbana", "Floral blanco", "Ambarado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/The-One-698.html", "sold"),
@@ -140,6 +140,7 @@ const perfumes =[
     new Perfume(126, "Sweet Tooth Cherry Baby", "Sabrina Carpentes", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Cherry-Baby-95861.html"),
     new Perfume(127, "Crush Cheirosa 71'", "Sol de Janeiro", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sol-de-Janeiro/Cheirosa-71-63079.html"),
     new Perfume(128, "Vanilla Suede", "Ariana Grande", "Avainillado", "Atalcado", "https://www.fragrantica.es/perfume/Ariana-Grande/Vanilla-Suede-96257.html"),
+    new Perfume(129, "Khamra", "Lattafa", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Khamrah-75805.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
