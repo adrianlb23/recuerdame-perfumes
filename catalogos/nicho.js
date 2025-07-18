@@ -150,6 +150,8 @@ const perfumes = [
     new Perfume(135, "Yum Boujee Marshmallow", "Kayali", "Mujer", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Yum-Boujee-Marshmallow-81-99254.html",), 
     new Perfume(136, "Météore", "Louis Vuitton", "Hombre", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Meteore-62251.html",), 
     new Perfume(137, "Red Tobacco Intense", "Mancera", "Unisex", "Calido especiado", "Tabaco", "https://www.fragrantica.es/perfume/Mancera/Red-Tobacco-Intense-84246.html"),
+    new Perfume(138, "Herod", "Parfums de Marly", "Hombre", "Avainillado", "Tabaco", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Herod-16939.html"),
+    new Perfume(139, "Guidance", "Amouage", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Amouage/Guidance-78656.html"),
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
