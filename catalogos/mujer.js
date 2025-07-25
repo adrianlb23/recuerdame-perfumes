@@ -141,6 +141,8 @@ const perfumes =[
     new Perfume(127, "Crush Cheirosa 71'", "Sol de Janeiro", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sol-de-Janeiro/Cheirosa-71-63079.html"),
     new Perfume(128, "Vanilla Suede", "Ariana Grande", "Avainillado", "Atalcado", "https://www.fragrantica.es/perfume/Ariana-Grande/Vanilla-Suede-96257.html"),
     new Perfume(129, "Khamra", "Lattafa", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Khamrah-75805.html"),
+    new Perfume(130, "Bright Crystal", "Versace", "Floral", "Citrico", "https://www.fragrantica.es/perfume/Versace/Bright-Crystal-632.html"),
+    new Perfume(131, "Sweet Tooth Me Expresso", "Sabrina Carpenter", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Me-Espresso-100729.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
