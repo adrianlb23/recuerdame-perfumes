@@ -183,7 +183,7 @@ const perfumes =[
     new Perfume(166, "Acqua di Gio Blue Edition", "Giorgio Armani", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Blue-Edition-Pour-Homme-25615.html"),
     new Perfume(167, "Bad Boy Cobalt Elixir", "Carolina Herrera", "Fresco especiado", "Avainillado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Bad-Boy-Cobalt-Elixir-89374.html"),
     new Perfume(168, "Gentleman Society EDP Extreme", "Givenchy", "Amaderado", "Aromático", "https://www.fragrantica.es/perfume/Givenchy/Gentleman-Society-Eau-de-Parfum-Extreme-89933.html"),
-    new Perfume(169, "Stronger with You Tobacco", "Giorgio Armani", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Tobacco-90333.html")
+    new Perfume(169, "Stronger With You Tobacco", "Giorgio Armani", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Tobacco-90333.html")
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
