@@ -1,21 +1,30 @@
-main {
-    flex: 1;
+/* Estilos generales consistentes */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    min-height: 100vh;
 }
 
+main {
+    flex: 1;
+}
+
+/* Hero section - Estilo modernizado */
 .hero {
     position: relative;
     width: 100%;
-    height: 90vh; /*tamaño en proporción a la altura de la pantalla*/
+    height: 90vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #2c3e50; /* Fondo de respaldo */
 }
 
 .hero .carousel {
@@ -24,7 +33,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 1;
     display: flex;
     transition: transform 1s ease-in-out;
 }
@@ -46,40 +55,89 @@ main {
 }
 
 .hero-content {
+    position: relative;
+    z-index: 2;
     color: #fff;
-    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    background: rgba(44, 62, 80, 0.85);
+    padding: 2rem;
     border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    backdrop-filter: blur(5px);
 }
 
 .hero-content h2 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
 }
 
-@media screen and (max-width: 550px) {
-    .hero-content {
-        width: 80%;
-    }
+/* Botones - Estilo consistente con catálogos */
+.btn-hero {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
 }
 
+.btn-hero:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(106, 17, 203, 0.2);
+}
+
+/* Secciones - Estilo moderno */
+.section-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin: 3rem 0 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+/* About & Map section */
 .about-map-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .about-map-section .content-wrapper {
     display: flex;
     width: 100%;
+    gap: 2rem;
 }
 
 .about-map-section .about-us, 
@@ -90,17 +148,16 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .about-map-section .about-us h2 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #2c3e50;
 }
 
 .about-map-section .about-us p {
-    font-size: 1em;
+    font-size: 1.1rem;
     line-height: 1.6;
     color: #555;
     max-width: 80%;
@@ -111,82 +168,125 @@ main {
     max-width: 500px;
     aspect-ratio: 1.5/1;
     border: none;
-    border-radius: 10px; /* Opcional: bordes redondeados */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.map iframe{
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
+/* Testimonios section */
 .testimonios {
-    background-color: #ebebeb;
-    padding: 40px 20px;
+    background-image: url('./img/img7.jpeg'); /* ajusta el path según tu estructura */
+    background-size: cover;         /* Hace que la imagen cubra todo el div */
+    background-position: center;    /* Centra la imagen */
+    padding: 4rem 2rem;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
     background-image: url('/img/img7.jpeg');
     background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.testimonios::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    z-index: 0;
 }
 
 .testimonios h2 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
 }
 
 .contenedor-testimonios {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .testimonio {
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 100%;
     max-width: 300px;
     text-align: left;
-    transition: transform 0.225s ease
+    transition: transform 0.3s ease;
 }
 
-.testimonio:hover{
+.testimonio:hover {
     transform: translateY(-5px);
-    transition: transform 0.225s;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 .testimonio p {
-    font-size: 1em;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.6;
     color: #555;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    font-style: italic;
 }
 
 .testimonio h4 {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #333;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 1rem;
 }
 
-/* Media query para pantallas menores a 550px */
-@media (max-width: 550px) {
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
     .about-map-section {
         flex-direction: column;
-        gap: 15px;
     }
-
+    
     .about-map-section .content-wrapper {
         flex-direction: column;
-    }
-
-    .about-map-section .about-us{
-        margin-bottom: 20px;
     }
     
     .about-map-section .about-us, 
     .about-map-section .map {
         width: 100%;
-        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
     }
 }
 
+@media (max-width: 480px) {
+    .hero-content {
+        padding: 1.5rem;
+        width: 90%;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.6rem;
+    }
+    
+    .testimonio {
+        max-width: 100%;
+    }
+}

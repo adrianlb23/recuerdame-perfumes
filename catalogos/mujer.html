@@ -58,16 +58,6 @@
             </p>
         </div>
 
-        <section class="search-section">
-            <div class="search-container">
-                <div class="search-input-wrapper">
-                    <i class="fas fa-search search-icon"></i>
-                    <input type="text" id="search-input" placeholder="Buscar por nombre, marca o notas olfativas...">
-                    <button class="search-btn">Buscar</button>
-                </div>
-            </div>
-        </section>
-
         <section class="filter-section">
             <div class="filter-header">
                 <h3>Filtrar por familia olfativa</h3>
@@ -75,6 +65,7 @@
                     <i class="fas fa-sliders-h"></i> Filtros
                 </button>
             </div>
+        </section>
             
             <div class="filter-options-container" id="filter-options">
                 <div class="filter-grid">
@@ -131,16 +122,6 @@
                     <i class="fas fa-times"></i> Limpiar filtros
                 </button>
             </div>
-        </section>
-
-        <section class="perfume-grid" id="perfume-grid">
-            <!-- Las tarjetas de perfume se insertarán aquí dinámicamente -->
-        </section>
-
-        <div class="stock-notice">
-            <p><i class="fas fa-exclamation-circle"></i> Los productos marcados en rojo están fuera de stock o próximos a llegar.</p>
-        </div>
-
         <div class="action-buttons">
             <button class="btn-secondary" onclick="location.href='/index.html'">
                 <i class="fas fa-home"></i> Inicio
@@ -149,6 +130,11 @@
                 <i class="fas fa-tags"></i> Ver precios
             </button>
         </div>
+
+        <section class="perfume-grid" id="perfume-grid">
+            <!-- Las tarjetas de perfume se insertarán aquí dinámicamente -->
+        </section>
+
     </main>
 
     <footer class="modern-footer">

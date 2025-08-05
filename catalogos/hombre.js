@@ -184,23 +184,49 @@ const perfumes =[
 document.addEventListener('DOMContentLoaded', () => {
     mostrarPerfumes();
 
-    document.querySelectorAll('input[name="aroma"]').forEach(radio => {
+    // Filtros por tipo de aroma
+    const radios = document.querySelectorAll('input[name="aroma"]');
+    radios.forEach(radio => {
         radio.addEventListener('change', actualizarPerfumes);
     });
 
+    // Filtro por búsqueda de texto
     const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('input', actualizarPerfumes);
-    
-    // Si existe el botón de búsqueda, añadir evento
+    if (searchInput) {
+        searchInput.addEventListener('input', actualizarPerfumes);
+    }
+
     const searchBtn = document.querySelector('.search-btn');
-    if(searchBtn) {
+    if (searchBtn) {
         searchBtn.addEventListener('click', actualizarPerfumes);
+    }
+
+    // Toggle de filtros para móviles
+    const filterToggle = document.getElementById('filter-toggle');
+    const filterOptions = document.getElementById('filter-options');
+
+    if (filterToggle && filterOptions) {
+        filterToggle.addEventListener('click', function (e) {
+            e.stopPropagation();
+            filterOptions.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        document.addEventListener('click', function () {
+            filterOptions.classList.remove('active');
+            filterToggle.classList.remove('active');
+        });
+
+        filterOptions.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
     }
 });
 
 function actualizarPerfumes() {
     const tipoSeleccionado = document.querySelector('input[name="aroma"]:checked');
-    const searchValue = document.getElementById('search-input').value.trim().toLowerCase();
+    const searchInput = document.getElementById('search-input');
+    const searchValue = searchInput ? searchInput.value.trim().toLowerCase() : "";
 
     let perfumesFiltrados = perfumes;
 
@@ -235,84 +261,78 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
     perfumesFiltrados.forEach(perfume => {
         const card = document.createElement('div');
         card.className = 'perfume-card';
-        
-        // Si el perfume está agotado, aplicar clase "sold"
+
         if (perfume.dispo === 'sold') {
             card.classList.add('sold');
         }
 
-        // Header de la tarjeta
         const cardHeader = document.createElement('div');
         cardHeader.className = 'card-header';
-        
+
         const perfumeNumber = document.createElement('span');
         perfumeNumber.className = 'perfume-number';
         perfumeNumber.textContent = perfume.numero;
         cardHeader.appendChild(perfumeNumber);
-        
+
         const perfumeName = document.createElement('h3');
         perfumeName.className = 'perfume-name';
         perfumeName.textContent = perfume.nombre;
         cardHeader.appendChild(perfumeName);
-        
+
         const perfumeGender = document.createElement('span');
         perfumeGender.className = 'perfume-gender';
         perfumeGender.textContent = perfume.genero;
         cardHeader.appendChild(perfumeGender);
-        
+
         card.appendChild(cardHeader);
 
-        // Body de la tarjeta
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
-        
+
         const perfumeHouse = document.createElement('p');
         perfumeHouse.className = 'perfume-house';
         perfumeHouse.textContent = perfume.marca;
         cardBody.appendChild(perfumeHouse);
-        
+
         const perfumeNotes = document.createElement('div');
         perfumeNotes.className = 'perfume-notes';
-        
-        if(perfume.tipo) {
+
+        if (perfume.tipo) {
             const noteTag1 = document.createElement('span');
             noteTag1.className = 'note-tag';
             noteTag1.textContent = perfume.tipo;
             perfumeNotes.appendChild(noteTag1);
         }
-        
-        if(perfume.tipo2) {
+
+        if (perfume.tipo2) {
             const noteTag2 = document.createElement('span');
             noteTag2.className = 'note-tag';
             noteTag2.textContent = perfume.tipo2;
             perfumeNotes.appendChild(noteTag2);
         }
-        
+
         cardBody.appendChild(perfumeNotes);
         card.appendChild(cardBody);
 
-        // Footer de la tarjeta
         const cardFooter = document.createElement('div');
         cardFooter.className = 'card-footer';
-        
+
         const detailsBtn = document.createElement('button');
         detailsBtn.className = 'details-btn';
         detailsBtn.innerHTML = '<i class="fas fa-info-circle"></i> Ver detalles';
-        
-        // Redirección a la página de detalles del perfume
+
         detailsBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            if(perfume.url) {
+            if (perfume.url) {
                 window.open(perfume.url, '_blank');
             }
         });
-        
+
         cardFooter.appendChild(detailsBtn);
         card.appendChild(cardFooter);
 
-        // Click en toda la tarjeta también redirige
         card.addEventListener('click', () => {
-            if(perfume.url) {
+            if (perfume.url) {
                 window.open(perfume.url, '_blank');
             }
         });
@@ -320,32 +340,7 @@ function mostrarPerfumes(perfumesFiltrados = perfumes) {
         perfumeGrid.appendChild(card);
     });
 }
-document.addEventListener('DOMContentLoaded', () => {
-    mostrarPerfumes();
 
-    // Configurar el toggle de filtros para móviles
-    const filterToggle = document.getElementById('filter-toggle');
-    const filterOptions = document.getElementById('filter-options');
-    
-    if(filterToggle && filterOptions) {
-        filterToggle.addEventListener('click', function(e) {
-            e.stopPropagation();
-            filterOptions.classList.toggle('active');
-            this.classList.toggle('active');
-        });
-        
-        // Cerrar filtros al hacer clic fuera
-        document.addEventListener('click', function() {
-            filterOptions.classList.remove('active');
-            filterToggle.classList.remove('active');
-        });
-        
-        // Evitar que el clic en los filtros los cierre
-        filterOptions.addEventListener('click', function(e) {
-            e.stopPropagation();
-        });
-    }
-});
 function deseleccionarRadios() {
     const radios = document.querySelectorAll('input[name="aroma"]');
     radios.forEach(radio => radio.checked = false);

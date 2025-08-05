@@ -63,6 +63,7 @@ body {
 .search-input-wrapper {
     display: flex;
     align-items: center;
+    height: 7vh;
     background: white;
     border-radius: 30px;
     padding: 0.5rem 1rem;
@@ -295,19 +296,6 @@ body {
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     color: white;
     border-color: transparent;
-}
-
-/* Stock notice */
-.stock-notice {
-    text-align: center;
-    margin: 1.5rem 0;
-    color: #666;
-    font-size: 0.9rem;
-}
-
-.stock-notice i {
-    color: #e53935;
-    margin-right: 0.5rem;
 }
 
 /* Action buttons */
