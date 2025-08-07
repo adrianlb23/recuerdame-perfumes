@@ -1,38 +1,4 @@
-/* Estilos generales consistentes con catálogos */
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-/* Título principal - Estilo similar a catálogos */
-.precio-title {
-    text-align: center;
-    margin: 1.5rem 0;
-    color: #2c3e50;
-    font-size: 2.2rem;
-    font-weight: 700;
-    position: relative;
-    padding-bottom: 0.5rem;
-}
-
-.precio-title::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 3px;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-}
-
-/* Selector de precios - Estilo de filtros similar */
+/* Selector de precios*/
 .price-selector-container {
     display: flex;
     flex-wrap: wrap;
