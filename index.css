@@ -1,105 +1,220 @@
-/* Estilos generales consistentes */
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 main {
     flex: 1;
 }
 
 /* Hero section - Estilo modernizado */
 .hero {
-    position: relative;
-    width: 100%;
-    height: 90vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #2c3e50; /* Fondo de respaldo */
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
-.hero .carousel {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    transition: transform 1s ease-in-out;
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
-.hero .carousel-slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+.carousel-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-.hero .carousel-slide.active {
-    opacity: 1;
+.carousel-slide.active {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
 }
 
 .hero-content {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-    background: rgba(44, 62, 80, 0.85);
-    padding: 2rem;
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 0 auto;
-    backdrop-filter: blur(5px);
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 2rem;
 }
 
-.hero-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: white;
-    font-weight: 700;
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    line-height: 1.6;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
 }
 
-/* Botones - Estilo consistente con catálogos */
-.btn-hero {
-    display: inline-block;
-    padding: 0.8rem 2rem;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-    color: white;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
+.catalog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
-.btn-hero:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(106, 17, 203, 0.2);
+.catalog-card {
+  position: relative;
+  width: 220px;
+  height: 130px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
 }
+
+.catalog-card:hover {
+  transform: scale(1.05);
+}
+
+.catalog-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.catalog-card span {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.top-sellers {
+  background-color: #f8f8f8;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.top-sellers h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.contenedor-top-sellers {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE y Edge */
+}
+
+.contenedor-top-sellers::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.perfume-card {
+  position: relative;
+  width: 200px;
+  height: 140px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.perfume-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.2));
+  z-index: 0;
+}
+
+.perfume-card * {
+  position: relative;
+  z-index: 1;
+  color: #000;
+  margin: 0;
+  text-decoration: none; /* Remueve subrayado */
+}
+
+.perfume-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.perfume-card .marca {
+  font-size: 0.85rem;
+  margin-bottom: 0.15rem;
+}
+
+.perfume-card .catalogo-numero {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.ver-catalogo-btn {
+  align-self: flex-start;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Asegura que no tenga subrayado */
+}
+
+.ver-catalogo-btn:hover {
+  background-color: #ddd;
+}
+
+
+@media (min-width: 768px) {
+  .contenedor-top-sellers {
+    justify-content: center;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+  }
+}
+
+
 
 /* Secciones - Estilo moderno */
 .section-title {
