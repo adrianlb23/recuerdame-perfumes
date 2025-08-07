@@ -141,7 +141,7 @@ nav ul li:hover {
     display: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
     .parrafo-aclaracion {
         font-size: 0.7rem;
     }
