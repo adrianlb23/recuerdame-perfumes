@@ -131,7 +131,7 @@ const perfumes =[
     new Perfume(117, "Gloria", "Cacharel", "Frutal", "Avainillado", "https://www.fragrantica.es/perfume/Cacharel/Gloria-246.html"),
     new Perfume(118, "Romance", "Raplh Lauren", "Floral", "Calido especiado", "https://www.fragrantica.es/perfume/Ralph-Lauren/Romance-825.html"),
     new Perfume(119, "Libre Intense", "Yves Saint Laurent", "Avainillado", "Floral blanco", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Libre-Intense-62318.html",),
-    new Perfume(120, "Miss Dior Parfum", "Dior", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dior/Miss-Dior-Parfum-2024-89584.html", "sold"),
+    new Perfume(120, "Miss Dior Parfum", "Dior", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dior/Miss-Dior-Parfum-2024-89584.html"),
     new Perfume(121, "La Vie est Belle Soleil Cristal", "Lancome", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Vie-Est-Belle-Soleil-Cristal-65156.html"),
     new Perfume(122, "Her", "Burberry", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Burberry/Burberry-Her-51694.html"),
     new Perfume(123, "Sweet Tooth", "Sabrina Carpenter", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-76824.html"),
