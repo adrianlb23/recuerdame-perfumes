@@ -73,7 +73,7 @@ const perfumes = [
     new Perfume(58, "Absolu Aventus", "Creed", "Hombre", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Creed/Absolu-Aventus-84112.html"),
     new Perfume(59, "By The Fireplace", "Maison Martin Margiela", "Unisex", "Amaderado", "Avainillado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/By-the-Fireplace-31623.html"),
     new Perfume(60, "Kirke", "Tiziana Terenzi", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tiziana-Terenzi/Kirke-32172.html"),
-    new Perfume(61, "Cedrat Boise", "Mancera", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Mancera/Cedrat-Boise-15211.html", "sold"),
+    new Perfume(61, "Cedrat Boise", "Mancera", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Mancera/Cedrat-Boise-15211.html"),
     new Perfume(62, "Terroni", "Orto Parisi", "Unisex", "Amaderado", "Ambarado", "https://www.fragrantica.es/perfume/Orto-Parisi/Terroni-45475.html"),
     new Perfume(63, "Greenley", "Parfums de Marly", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Greenley-62101.html"),
     new Perfume(64, "Flamenco", "Ramón Monegal", "Unisex", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Ramon-Monegal/Flamenco-44233.html", "sold"),
