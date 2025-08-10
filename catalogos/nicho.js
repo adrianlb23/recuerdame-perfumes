@@ -92,7 +92,7 @@ const perfumes = [
     new Perfume(77, "Sunshine Woman", "Amouage", "Mujer", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Amouage/Sunshine-Woman-28182.html"),
     new Perfume(78, "Yum Pistachio Gelatto", "Kayali", "Unisex", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Yum-Pistachio-Gelato-33-79846.html"),
     new Perfume(79, "Electric Cherry", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Electric-Cherry-78583.html", "sold"),
-    new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Pacific-Chill-81423.html", "sold"),
+    new Perfume(80, "Pacific Chill", "Louis Vuitton", "Unisex", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Louis-Vuitton/Pacific-Chill-81423.html"),
     new Perfume(81, "Babycat", "Yves Saint Laurent", "Unisex", "Avainillado", "Fresco especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Babycat-73149.html", "sold"),
     new Perfume(82, "Tobacco Mandarin", "Byredo", "Unisex", "Fresco especiado", "Tabaco", "https://www.fragrantica.es/perfume/Byredo/Tobacco-Mandarin-63031.html"),
     new Perfume(83, "Kalan", "Parfums de Marly", "Unisex", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Kalan-56036.html"),
