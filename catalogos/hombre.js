@@ -119,7 +119,7 @@ const perfumes =[
     new Perfume(102, "Sauvage Parfum", "Dior", "Fresco especiado", "Citrico", "https://www.fragrantica.es/perfume/Dior/Sauvage-Parfum-56324.html"),
     new Perfume(103, "Stronger With You Freeze", "Giorgio Armani", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Freeze-58808.html"),
     new Perfume(104, "La Nuit de l'Homme", "Yves Saint Laurent", "Aromatico", "Calido especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/La-Nuit-de-l-Homme-5521.html"),
-    new Perfume(105, "Man In Black", "Bvlgari", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/La-Nuit-de-l-Homme-5521.html"),
+    new Perfume(105, "Man In Black", "Bvlgari", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Bvlgari/Bvlgari-Man-In-Black-26358.html"),
     new Perfume(106, "Invictus Victory", "Rabanne", "Dulce", "Calido especiado", "https://www.fragrantica.es/perfume/Rabanne/Invictus-Victory-65177.html"),
     new Perfume(107, "Le Beau", "Jean Paul Gaultier", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Beau-55785.html"),
     new Perfume(108, "Acqua Di Gio Profondo", "Giorgio Armani", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Profondo-59532.html"),
