@@ -143,6 +143,7 @@ const perfumes =[
     new Perfume(129, "Khamra", "Lattafa", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Khamrah-75805.html"),
     new Perfume(130, "Bright Crystal", "Versace", "Floral", "Citrico", "https://www.fragrantica.es/perfume/Versace/Bright-Crystal-632.html"),
     new Perfume(131, "Sweet Tooth Me Expresso", "Sabrina Carpenter", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Me-Espresso-100729.html"),
+    new Perfume(132, "Yara Moi", "Lattafa", "Amaderado", "Floral blanco", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Yara-Moi-80722.html"),
 ]
 
 
