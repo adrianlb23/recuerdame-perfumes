@@ -13,7 +13,7 @@ class Perfume {
 
 const perfumes =[
     new Perfume(1, "Calandre", "Rabanne", "Verde", "Floral", "https://www.fragrantica.es/perfume/Rabanne/Calandre-522.html"),
-    new Perfume(2, "Cry Baby Perfume Milk", "Melanie Martinez", "Afrutado", "Dulce", "https://www.fragrantica.es/perfume/Melanie-Martinez/Cry-Baby-Perfume-Milk-41799.html", "sold"),
+    new Perfume(2, "Cry Baby Perfume Milk", "Melanie Martinez", "Afrutado", "Dulce", "https://www.fragrantica.es/perfume/Melanie-Martinez/Cry-Baby-Perfume-Milk-41799.html"),
     new Perfume(3, "Chanel No. 5", "Chanel", "Citrico", "Atalcado", "https://www.fragrantica.es/perfume/Chanel/Chanel-No-5-L-Eau-38543.html"),
     new Perfume(4, "Poison", "Dior", "Frutal", "Calido especiado", "https://www.fragrantica.es/perfume/Dior/Poison-218.html",),
     new Perfume(5, "Tresor", "Lancome", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Lancome/Tresor-172.html"),
@@ -144,6 +144,7 @@ const perfumes =[
     new Perfume(130, "Bright Crystal", "Versace", "Floral", "Citrico", "https://www.fragrantica.es/perfume/Versace/Bright-Crystal-632.html"),
     new Perfume(131, "Sweet Tooth Me Expresso", "Sabrina Carpenter", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Me-Espresso-100729.html"),
     new Perfume(132, "Yara Moi", "Lattafa", "Amaderado", "Floral blanco", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Yara-Moi-80722.html"),
+    new Perfume(133, "Chance EDT", "Chanel", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Chanel/Chance-Eau-de-Toilette-610.html"),
 ]
 
 
