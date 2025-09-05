@@ -45,7 +45,7 @@ const perfumes =[
     new Perfume(28, "Lapidus", "Ted Lapidus", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/Ted-Lapidus/Lapidus-Pour-Homme-5943.html"),
     new Perfume(29, "K", "Dolce & Gabbana", "Aromatico", "Amaderado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/K-by-Dolce-Gabbana-Eau-de-Parfum-62311.html"),
     new Perfume(30, "Polo Blue", "Ralph Lauren", "Citrico", "Marino", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Blue-1198.html"),
-    new Perfume(31, "Essential", "Lacoste", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Lacoste-Fragrances/Essential-787.html", "sold"),
+    new Perfume(31, "Essential", "Lacoste", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Lacoste-Fragrances/Essential-787.html"),
     new Perfume(32, "Ultraviolet", "Rabanne", "Verde", "Aromatico", "https://www.fragrantica.es/perfume/Rabanne/Ultraviolet-521.html", "sold"),
     new Perfume(33, "Armani Code Profumo", "Giorgio Armani", "Avainillado", "Amaderado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Code-Profumo-34761.html"),
     new Perfume(34, "Black XS", "Rabanne", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Rabanne/Black-XS-2018-49961.html"),
@@ -182,11 +182,13 @@ const perfumes =[
     new Perfume(165, "Born in Roma Green Stravaganza", "Valentino", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-in-Roma-Green-Stravaganza-88989.html"),
     new Perfume(166, "Acqua di Gio Blue Edition", "Giorgio Armani", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Blue-Edition-Pour-Homme-25615.html"),
     new Perfume(167, "Bad Boy Cobalt Elixir", "Carolina Herrera", "Fresco especiado", "Avainillado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Bad-Boy-Cobalt-Elixir-89374.html"),
-    new Perfume(168, "Gentleman Society EDP Extreme", "Givenchy", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/Givenchy/Gentleman-Society-Eau-de-Parfum-Extreme-89933.html"),
+    new Perfume(168, "Santos", "Cartier", "Fresco especiado", "Aromático", "https://www.fragrantica.es/perfume/Cartier/Santos-de-Cartier-316.html"),
     new Perfume(169, "Stronger With You Tobacco", "Giorgio Armani", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Tobacco-90333.html"),
     new Perfume(170, "Starwalker", "Montblanc", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Montblanc/Starwalker-4023.html"),
     new Perfume(171, "Hero EDP", "Burberry", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Burberry/Hero-Eau-de-Parfum-75182.html"),
-    new Perfume(172, "Nitro Red", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-73023.html"),
+    new Perfume(173, "Nitro Red", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-73023.html"),
+    new Perfume(174, "Light Blue Summer Vibes", "Dolce & Gabbana", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-Pour-Homme-Summer-Vibes-80377.html"),
+    new Perfume(175, "Boss Bottled Parfum", "Hugo Boss", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Parfum-75183.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

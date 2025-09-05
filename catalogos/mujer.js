@@ -36,7 +36,7 @@ const perfumes =[
     new Perfume(22, "O", "Lancome", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Lancome/O-de-Lancome-187.html"),
     new Perfume(23, "Oscar", "Oscar de la Renta", "Floral", "Atalcado", "https://www.fragrantica.es/perfume/Oscar-de-la-Renta/Oscar-1131.html"),
     new Perfume(24, "Angel", "Thierry Mugler", "Dulce", "Amaderado", "https://www.fragrantica.es/perfume/Mugler/Angel-704.html"),
-    new Perfume(25, "Hypnotic", "Dior", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Dior/Hypnotic-Poison-Eau-Sensuelle-9600.html", "sold"),
+    new Perfume(25, "Hypnotic", "Dior", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Dior/Hypnotic-Poison-Eau-Sensuelle-9600.html"),
     new Perfume(26, "The One", "Dolce & Gabbana", "Floral blanco", "Ambarado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/The-One-698.html", "sold"),
     new Perfume(27, "Thank U, Next", "Ariana Grande", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Ariana-Grande/Thank-U-Next-56741.html"),
     new Perfume(28, "Ralph", "Ralph Lauren", "Floral", "Citrico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Ralph-826.html"),
@@ -120,7 +120,7 @@ const perfumes =[
     new Perfume(106, "La Belle Le Parfum", "Jean Paul Gaultier", "Dulce", "Ambarado", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/La-Belle-Le-Parfum-65175.html"),
     new Perfume(107, "Crush Cheirosa 62'", "Sol de Janeiro", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Sol-de-Janeiro/Cheirosa-62-56062.html"),
     new Perfume(108, "Noble Blush", "Lattaffa", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Noble-Blush-98937.html"),
-    new Perfume(109, "Cloud Pink", "Ariana Grande", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Ariana-Grande/Cloud-Pink-83995.html", "sold"),
+    new Perfume(109, "Cloud Pink", "Ariana Grande", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Ariana-Grande/Cloud-Pink-83995.html"),
     new Perfume(110, "Toy 2 Pearl", "Moschino", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Moschino/Toy-2-Pearl-84718.html"),
     new Perfume(111, "Angel Nova", "Mugler", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Mugler/Angel-Nova-61519.html"),
     new Perfume(112, "Million Gold", "Rabanne", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Million-Gold-For-Her-95640.html"),
@@ -145,6 +145,8 @@ const perfumes =[
     new Perfume(131, "Sweet Tooth Me Expresso", "Sabrina Carpenter", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Me-Espresso-100729.html"),
     new Perfume(132, "Yara Moi", "Lattafa", "Amaderado", "Floral blanco", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Yara-Moi-80722.html"),
     new Perfume(133, "Chance EDT", "Chanel", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Chanel/Chance-Eau-de-Toilette-610.html"),
+    new Perfume(134, "Woman", "Ralph Lauren", "Floral blanco", "Frutal", "https://www.fragrantica.es/perfume/Ralph-Lauren/Woman-by-Ralph-Lauren-45741.html"),
+    new Perfume(135, "Crystal Noir Parfum", "Versace", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Versace/Crystal-Noir-Parfum-92276.html"),
 ]
 
 
