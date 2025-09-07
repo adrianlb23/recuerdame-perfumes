@@ -57,7 +57,7 @@ const perfumes =[
     new Perfume(40, "Bleu de Chanel", "Chanel", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Chanel/Bleu-de-Chanel-9099.html"),
     new Perfume(41, "Polo Red", "Ralph Lauren", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Red-18598.html"),
     new Perfume(42, "Fuel for Life", "Diesel", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Diesel/Fuel-for-Life-Homme-1605.html"),
-    new Perfume(43, "Armani Code", "Giorgio Armani", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Code-412.html"),
+    new Perfume(43, "Armani Code", "Giorgio Armani", "Aromático", "Amaderado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Code-Eau-de-Toilette-79263.html"),
     new Perfume(44, "Eros", "Versace", "Avainillado", "Aromatico", "https://www.fragrantica.es/perfume/Versace/Eros-16657.html"),
     new Perfume(45, "Pour Homme", "Dolce & Gabbana", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Dolce-Gabbana-Pour-Homme-2012-15336.html"),
     new Perfume(46, "Polo Ultra Blue", "Ralph Lauren", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Ultra-Blue-48111.html"),
@@ -83,7 +83,7 @@ const perfumes =[
     new Perfume(66, "Invictus", "Rabanne", "Marino", "Citrico", "https://www.fragrantica.es/perfume/Rabanne/Invictus-18471.html"),
     new Perfume(67, "Invictus Victory Elixir", "Rabanne", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Invictus-Victory-Elixir-78575.html"),
     new Perfume(68, "Kouros", "Yves Saint Laurent", "Aromatico", "Amaderado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Kouros-735.html"),
-    new Perfume(69, "Dior Homme", "Dior", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Dior/Dior-Homme-13015.html"),
+    new Perfume(69, "Dior Homme", "Dior", "Amaderado", "Aromático", "https://www.fragrantica.es/perfume/Dior/Dior-Homme-2020-58714.html"),
     new Perfume(70, "Bad Boy", "Carolina Herrera", "Calido especiado", "Aromatico", "https://www.fragrantica.es/perfume/Carolina-Herrera/Bad-Boy-55449.html"),
     new Perfume(71, "Y EDT", "Yves Saint Laurent", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Y-Eau-de-Toilette-73440.html"),
     new Perfume(72, "Acqua Di Gio Profumo", "Giorgio Armani", "Marino", "Amaderado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Profumo-29727.html"),
@@ -187,8 +187,8 @@ const perfumes =[
     new Perfume(170, "Starwalker", "Montblanc", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Montblanc/Starwalker-4023.html"),
     new Perfume(171, "Hero EDP", "Burberry", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Burberry/Hero-Eau-de-Parfum-75182.html"),
     new Perfume(172, "Nitro Red", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-73023.html"),
-    new Perfume(173, "One Million Intense", "Rabanne", "Calido especiado", "Floral", "https://www.fragrantica.es/perfume/Rabanne/1-Million-Intense-17472.html"),
-    new Perfume(174, "Light Blue Summer Vibes", "Dolce & Gabbana", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-Pour-Homme-Summer-Vibes-80377.html"),
+    new Perfume(173, "Light Blue Summer Vibes", "Dolce & Gabbana", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-Pour-Homme-Summer-Vibes-80377.html"),
+    new Perfume(174, "One Million Intense", "Rabanne", "Calido especiado", "Floral", "https://www.fragrantica.es/perfume/Rabanne/1-Million-Intense-17472.html"),
     new Perfume(175, "Boss Bottled Parfum", "Hugo Boss", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Parfum-75183.html"),
 ]
 
