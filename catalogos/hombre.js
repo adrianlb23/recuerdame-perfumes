@@ -186,7 +186,8 @@ const perfumes =[
     new Perfume(169, "Stronger With You Tobacco", "Giorgio Armani", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Tobacco-90333.html"),
     new Perfume(170, "Starwalker", "Montblanc", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Montblanc/Starwalker-4023.html"),
     new Perfume(171, "Hero EDP", "Burberry", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Burberry/Hero-Eau-de-Parfum-75182.html"),
-    new Perfume(173, "Nitro Red", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-73023.html"),
+    new Perfume(172, "Nitro Red", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-73023.html"),
+    new Perfume(173, "One Million Intense", "Rabanne", "Calido especiado", "Floral", "https://www.fragrantica.es/perfume/Rabanne/1-Million-Intense-17472.html"),
     new Perfume(174, "Light Blue Summer Vibes", "Dolce & Gabbana", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-Pour-Homme-Summer-Vibes-80377.html"),
     new Perfume(175, "Boss Bottled Parfum", "Hugo Boss", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Parfum-75183.html"),
 ]
