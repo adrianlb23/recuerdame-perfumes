@@ -37,7 +37,7 @@ const perfumes =[
     new Perfume(23, "Oscar", "Oscar de la Renta", "Floral", "Atalcado", "https://www.fragrantica.es/perfume/Oscar-de-la-Renta/Oscar-1131.html"),
     new Perfume(24, "Angel", "Thierry Mugler", "Dulce", "Amaderado", "https://www.fragrantica.es/perfume/Mugler/Angel-704.html"),
     new Perfume(25, "Hypnotic", "Dior", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Dior/Hypnotic-Poison-Eau-Sensuelle-9600.html"),
-    new Perfume(26, "The One", "Dolce & Gabbana", "Floral blanco", "Ambarado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/The-One-698.html", "sold"),
+    new Perfume(26, "The One", "Dolce & Gabbana", "Floral blanco", "Ambarado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/The-One-698.html"),
     new Perfume(27, "Thank U, Next", "Ariana Grande", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Ariana-Grande/Thank-U-Next-56741.html"),
     new Perfume(28, "Ralph", "Ralph Lauren", "Floral", "Citrico", "https://www.fragrantica.es/perfume/Ralph-Lauren/Ralph-826.html"),
     new Perfume(29, "Libre", "Yves Saint Laurent", "Floral", "Ambarado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Libre-56077.html"),
