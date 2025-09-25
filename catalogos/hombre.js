@@ -169,7 +169,7 @@ const perfumes =[
     new Perfume(152, "Asad Bourbon", "Lattafa" ,"Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Lattafa-Perfumes/Asad-Bourbon-101124.html"),
     new Perfume(153, "Born In Roma Intense", "Valentino", "Avainillado", "Aromático","https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-In-Roma-Intense-78740.html"),
     new Perfume(154, "Animale for Men", "Animale", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Animale/Animale-for-Men-5922.html"),
-    new Perfume(155, "Versace Pour Homme", "Versace", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Versace/Versace-Pour-Homme-2318.html", "sold"),
+    new Perfume(155, "Versace Pour Homme", "Versace", "Citrico", "Aromático","https://www.fragrantica.es/perfume/Versace/Versace-Pour-Homme-2318.html"),
     new Perfume(156, "Honor & Glory", "Lattafa", "Dulce", "Frutal","https://www.fragrantica.es/perfume/Lattafa-Perfumes/Bade-e-Al-Oud-Honor-Glory-84302.html"),
     new Perfume(157, "Le Male Elixir Absolu", "Jean Paul Gaultier", "Dulce", "Calido especiado","https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-Absolu-101529.html"),
     new Perfume(158, "Stronger With You Parfum", "Giorgio Armani", "Avainillado", "Aromatico","https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Parfum-100895.html"),

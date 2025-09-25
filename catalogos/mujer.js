@@ -147,6 +147,7 @@ const perfumes =[
     new Perfume(133, "Chance EDT", "Chanel", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Chanel/Chance-Eau-de-Toilette-610.html"),
     new Perfume(134, "Woman", "Ralph Lauren", "Floral blanco", "Frutal", "https://www.fragrantica.es/perfume/Ralph-Lauren/Woman-by-Ralph-Lauren-45741.html"),
     new Perfume(135, "Crystal Noir Parfum", "Versace", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Versace/Crystal-Noir-Parfum-92276.html"),
+    new Perfume(136, "La Bomba", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/La-Bomba-105931.html"),
 ]
 
 

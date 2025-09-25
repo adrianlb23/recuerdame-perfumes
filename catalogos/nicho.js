@@ -158,6 +158,8 @@ const perfumes = [
     new Perfume(143, "Isola Blu", "Roja Parfums", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Roja-Dove/Isola-Blu-80177.html"),
     new Perfume(144, "Opus XIV Royal Tobacco", "Amouage", "Unisex", "Tabaco", "Ambarado", "https://www.fragrantica.es/perfume/Amouage/Opus-XIV-Royal-Tobacco-75064.html"),
     new Perfume(145, "Opus XV King Blue", "Amouage", "Unisex", "Amaderado", "Ambarado", "https://www.fragrantica.es/perfume/Amouage/Opus-XV-King-Blue-83394.html"),
+    new Perfume(146, "Oud Cadenza", "Maison Crivelli", "Unisex", "Dulce", "Calido especiado", "https://www.fragrantica.es/perfume/Maison-Crivelli/Oud-Cadenza-95195.html"),
+    new Perfume(147, "Soleil de Feu", "Tom Ford", "Mujer", "Amabarado", "Amaderado", "https://www.fragrantica.es/perfume/Tom-Ford/Soleil-de-Feu-80083.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
