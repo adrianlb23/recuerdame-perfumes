@@ -190,6 +190,8 @@ const perfumes =[
     new Perfume(173, "Light Blue Summer Vibes", "Dolce & Gabbana", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-Pour-Homme-Summer-Vibes-80377.html"),
     new Perfume(174, "One Million Intense", "Rabanne", "Calido especiado", "Floral", "https://www.fragrantica.es/perfume/Rabanne/1-Million-Intense-17472.html"),
     new Perfume(175, "Boss Bottled Parfum", "Hugo Boss", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Parfum-75183.html"),
+    new Perfume(176, "CH Men Prive", "Carolina Herrera", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-Men-Prive-31508.html"),
+    new Perfume(177, "Polo Double Black", "Ralph Lauren", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Double-Black-1199.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

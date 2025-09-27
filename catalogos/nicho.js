@@ -47,7 +47,7 @@ const perfumes = [
     new Perfume(32, "Instant Crush", "Mancera", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Mancera/Instant-Crush-54885.html"),
     new Perfume(33, "1872", "Clive Christian", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Clive-Christian/1872-For-Men-4646.html"),
     new Perfume(34, "Armani Prive Vert Malachite", "Giorgio Armani", "Unisex", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Prive-Vert-Malachite-34588.html"),
-    new Perfume(35, "Imagination", "Louis Vuitton", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Louis-Vuitton/Imagination-67370.html", "sold"),
+    new Perfume(35, "Imagination", "Louis Vuitton", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Louis-Vuitton/Imagination-67370.html"),
     new Perfume(36, "Angels Share", "Kilian", "Unisex", "Amaderado", "Dulce", "https://www.fragrantica.es/perfume/By-Kilian/Angels-Share-62615.html",),
     new Perfume(37, "Pardon", "Nasomatto", "Hombre", "Calido especiado", "Tabaco", "https://www.fragrantica.es/perfume/Nasomatto/Pardon-12130.html"),
     new Perfume(38, "Oriana", "Parfums de Marly", "Mujer", "Dulce", "Citrico", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Oriana-69117.html"),
