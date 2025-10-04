@@ -50,7 +50,7 @@ const perfumes =[
     new Perfume(33, "Armani Code Profumo", "Giorgio Armani", "Avainillado", "Amaderado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Code-Profumo-34761.html"),
     new Perfume(34, "Black XS", "Rabanne", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Rabanne/Black-XS-2018-49961.html"),
     new Perfume(35, "Polo Red Extreme", "Ralph Lauren", "Aromatico", "Calido especiado", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Red-Extreme-43386.html"),
-    new Perfume(36, "212 Sexy Men", "Carolina Herrera", "Avainillado", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-Sexy-Men-1054.html", "sold"),
+    new Perfume(36, "212 Sexy Men", "Carolina Herrera", "Avainillado", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-Sexy-Men-1054.html"),
     new Perfume(37, "Lacoste Red", "Lacoste", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Lacoste-Fragrances/Red-3189.html"),
     new Perfume(38, "Lacoste Pour Homme", "Lacoste", "Frutal", "Calido especiado", "https://www.fragrantica.es/perfume/Lacoste-Fragrances/Lacoste-Pour-Homme-670.html", "sold"),
     new Perfume(39, "Boss Bottled Night", "Hugo Boss", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Night-8825.html"),
@@ -192,6 +192,7 @@ const perfumes =[
     new Perfume(175, "Boss Bottled Parfum", "Hugo Boss", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Bottled-Parfum-75183.html"),
     new Perfume(176, "CH Men Prive", "Carolina Herrera", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-Men-Prive-31508.html"),
     new Perfume(177, "Polo Double Black", "Ralph Lauren", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Double-Black-1199.html"),
+    new Perfume(178, "Nitro Red Intensely", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-Intensely-104555.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

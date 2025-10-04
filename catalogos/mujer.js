@@ -64,7 +64,7 @@ const perfumes =[
     new Perfume(50, "Curious", "Britney Spears", "Floral", "Dulce", "https://www.fragrantica.es/perfume/Britney-Spears/Curious-141.html"),
     new Perfume(51, "CH Woman", "Carolina Herrera", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-2015-31507.html"),
     new Perfume(52, "Olympéa", "Rabanne", "Avainillado", "Ambarado", "https://www.fragrantica.es/perfume/Rabanne/Olympea-31666.html"),
-    new Perfume(53, "Eros", "Versace", "Citrico", "Calido especiado", "https://www.fragrantica.es/perfume/Versace/Eros-Pour-Femme-28958.html", "sold"),
+    new Perfume(53, "Eros", "Versace", "Citrico", "Calido especiado", "https://www.fragrantica.es/perfume/Versace/Eros-Pour-Femme-28958.html"),
     new Perfume(54, "My Way", "Giorgio Armani", "Floral blanco", "Citrico", "https://www.fragrantica.es/perfume/Giorgio-Armani/My-Way-62036.html"),
     new Perfume(55, "Midnight Fantasy", "Britney Spears", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Britney-Spears/Midnight-Fantasy-802.html"),
     new Perfume(56, "La Nuit Trésor", "Lancome", "Calido especiado", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Nuit-Tresor-Le-Parfum-89120.html"),
@@ -149,6 +149,7 @@ const perfumes =[
     new Perfume(135, "Crystal Noir Parfum", "Versace", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/Versace/Crystal-Noir-Parfum-92276.html"),
     new Perfume(136, "La Bomba", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/La-Bomba-105931.html"),
     new Perfume(137, "Flowerbomb", "Viktor & Rolf", "Floral blanco", "Floral", "https://www.fragrantica.es/perfume/Viktor-Rolf/Flowerbomb-1460.html"),
+    new Perfume(138, "Dylan Purple", "Versace", "Afrutado", "Floral", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Femme-Dylan-Purple-76274.html"),
 ]
 
 
