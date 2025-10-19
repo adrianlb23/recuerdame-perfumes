@@ -33,7 +33,7 @@ const perfumes =[
     new Perfume(16, "XS", "Rabanne", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Rabanne/XS-2018-49962.html",),
     new Perfume(17, "Hugo Boss (Cantimplora)", "Hugo Boss", "Fresco especiado", "Aromatico", "https://www.fragrantica.es/perfume/Hugo-Boss/Hugo-570.html"),
     new Perfume(18, "Pino Silvestre", "Lino Vidal", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Pino-Silvestre/Pino-Silvestre-Original-1522.html"),
-    new Perfume(19, "The Most Wanted Parfum", "Azzaro", "Amaderado", "Avainillado", "https://www.fragrantica.es/perfume/Azzaro/The-Most-Wanted-Parfum-73664.html"),
+    new Perfume(19, "The Most Wanted Parfum", "Azzaro", "Amaderado", "Avainillado", "https://www.fragrantica.es/perfume/Azzaro/The-Most-Wanted-Parfum-73664.html", "sold"),
     new Perfume(20, "Le Male", "Jean Paul Gaultier", "Aromatico", "Avainillado", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-430.html"),
     new Perfume(21, "Tommy", "Tommy Hilfiger", "Fresco especiado", "Verde", "https://www.fragrantica.es/perfume/Tommy-Hilfiger/Tommy-6314.html"),
     new Perfume(22, "Pour Homme", "Kenzo", "Marino", "Aromatico", "https://www.fragrantica.es/perfume/Kenzo/Kenzo-pour-Homme-77.html"),
@@ -148,7 +148,7 @@ const perfumes =[
     new Perfume(131, "Phantom Parfum", "Rabanne", "Aromatico", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Phantom-Parfum-81927.html"),
     new Perfume(132, "Luna Rossa Carbon", "Prada", "Fresco especiado", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Luna-Rossa-Carbon-43402.html"),
     new Perfume(133, "Selection", "Hugo Boss", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Hugo-Boss/Boss-Selection-387.html"),
-    new Perfume(134, "Born In Roma Coral Fantasy", "Valentino", "Frutal", "Aromatico", "https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-In-Roma-Coral-Fantasy-71761.html", "sold"),
+    new Perfume(134, "Born In Roma Coral Fantasy", "Valentino", "Frutal", "Aromatico", "https://www.fragrantica.es/perfume/Valentino/Valentino-Uomo-Born-In-Roma-Coral-Fantasy-71761.html"),
     new Perfume(135, "Le Beau Le Parfum", "Jean Paul Gaultier", "Dulce", "Frutal", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Beau-Le-Parfum-72158.html"),
     new Perfume(136, "Le Beau Paradise Garden", "Jean Paul Gaultier", "Verde", "Dulce", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Beau-Paradise-Garden-88836.html"),
     new Perfume(137, "Y EDP Intense", "Yves Saint Laurent", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Y-Eau-de-Parfum-Intense-79243.html"),
@@ -193,6 +193,8 @@ const perfumes =[
     new Perfume(176, "CH Men Prive", "Carolina Herrera", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-Men-Prive-31508.html"),
     new Perfume(177, "Polo Double Black", "Ralph Lauren", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Ralph-Lauren/Polo-Double-Black-1199.html"),
     new Perfume(178, "Nitro Red Intensely", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-Intensely-104555.html"),
+    new Perfume(179, "MYSLF Le Parfum", "Yves Saint Laurent", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/MYSLF-Le-Parfum-94983.html"),
+    new Perfume(180, "Dior Homme Parfum 2025", "Dior", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Dior/Dior-Homme-Parfum-2025-101016.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
