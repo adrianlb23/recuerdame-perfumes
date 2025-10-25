@@ -57,7 +57,7 @@ const perfumes = [
     new Perfume(42, "The Collection: Courageous Rose", "Hugo Boss", "Unisex", "Fresco especiado", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Courageous-Rose-101080.html"),
     new Perfume(43, "Renaissance", "Xerjoff", "Unisex", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Xerjoff/XJ-1861-Renaissance-12126.html"),
     new Perfume(44, "Chocolate Greedy", "Montale", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Montale/Chocolate-Greedy-2186.html"),
-    new Perfume(45, "Percival", "Parfums de Marly", "Unisex", "Ambarado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Percival-51037.html", "sold"),
+    new Perfume(45, "Percival", "Parfums de Marly", "Unisex", "Ambarado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Percival-51037.html"),
     new Perfume(46, "Office for Men", "Jeremy Fragrance", "Hombre", "Ambarado", "Citrico", "https://www.fragrantica.es/perfume/Fragrance-One/Office-For-Men-55166.html"),
     new Perfume(47, "Hacivat", "Nishane", "Unisex", "Amaderado", "Citrico", "https://www.fragrantica.es/perfume/Nishane/Hacivat-44174.html"),
     new Perfume(48, "Althair", "Parfums de Marly", "Hombre", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Althair-84109.html"),
@@ -161,6 +161,9 @@ const perfumes = [
     new Perfume(146, "Oud Cadenza", "Maison Crivelli", "Unisex", "Dulce", "Calido especiado", "https://www.fragrantica.es/perfume/Maison-Crivelli/Oud-Cadenza-95195.html"),
     new Perfume(147, "Soleil de Feu", "Tom Ford", "Mujer", "Amabarado", "Amaderado", "https://www.fragrantica.es/perfume/Tom-Ford/Soleil-de-Feu-80083.html"),
     new Perfume(148, "Lovefest Burning Cherry", "Kayali", "Unisex", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Lovefest-Burning-Cherry-48-Eau-de-Parfum-75661.html"),
+    new Perfume(149, "Tobacolor", "Dior", "Unisex", "Tabaco", "Dulce", "https://www.fragrantica.es/perfume/Dior/Tobacolor-65551.html"),
+    new Perfume(150, "Sense", "Laverne", "Mujer", "Floral", "Citrico", "https://www.fragrantica.es/perfume/Laverne/Sense-102340.html"),
+    new Perfume(151, "Hundred Silent Ways", "Nishane", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/Nishane/Hundred-Silent-Ways-37602.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

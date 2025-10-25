@@ -195,6 +195,7 @@ const perfumes =[
     new Perfume(178, "Nitro Red Intensely", "Dumont", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Dumont/Nitro-Red-Intensely-104555.html"),
     new Perfume(179, "MYSLF Le Parfum", "Yves Saint Laurent", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/MYSLF-Le-Parfum-94983.html"),
     new Perfume(180, "Dior Homme Parfum 2025", "Dior", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Dior/Dior-Homme-Parfum-2025-101016.html"),
+    new Perfume(181, "Bad Boy Elixir", "Carolina Herrera", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Bad-Boy-Elixir-101597.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
