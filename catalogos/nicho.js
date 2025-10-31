@@ -164,6 +164,8 @@ const perfumes = [
     new Perfume(149, "Tobacolor", "Dior", "Unisex", "Tabaco", "Dulce", "https://www.fragrantica.es/perfume/Dior/Tobacolor-65551.html"),
     new Perfume(150, "Sense", "Laverne", "Mujer", "Floral", "Citrico", "https://www.fragrantica.es/perfume/Laverne/Sense-102340.html"),
     new Perfume(151, "Hundred Silent Ways", "Nishane", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/Nishane/Hundred-Silent-Ways-37602.html"),
+    new Perfume(152, "Mefisto", "Xerjoff", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Xerjoff/Mefisto-6310.html"),
+    new Perfume(153, "Beach Walk", "Maison Margiela", "Mujer", "Floral", "Dulce", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Beach-Walk-15261.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
