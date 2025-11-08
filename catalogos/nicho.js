@@ -130,7 +130,7 @@ const perfumes = [
     new Perfume(115, "Torino 21", "Xerjoff", "Unisex", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Xerjoff/Torino21-70424.html"),
     new Perfume(116, "Gris Charnel", "BDK Parfums", "Unisex", "Amaderado", "Calido especiado", "https://www.fragrantica.es/perfume/BDK-Parfums/Gris-Charnel-57038.html"),
     new Perfume(117, "Tuscan Leather", "Tom Ford", "Unisex", "Aromatico", "Afrutado", "https://www.fragrantica.es/perfume/Tom-Ford/Tuscan-Leather-1849.html"),
-    new Perfume(118, "Afternoon Swim", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Afternoon-Swim-53947.html", "sold"),
+    new Perfume(118, "Afternoon Swim", "Louis Vuitton", "Unisex", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Louis-Vuitton/Afternoon-Swim-53947.html"),
     new Perfume(119, "Coffee Break", "Maison Martin Margiela", "Unisex", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Coffee-Break-55926.html"),
     new Perfume(120, "Erba Gold", "Xerjoff", "Unisex", "Citrico", "Afrutado", "https://www.fragrantica.es/perfume/Xerjoff/Erba-Gold-76683.html"),
     new Perfume(121, "Noir Extreme", "Tom Ford", "Hombre", "Calido especiado", "Dulce", "https://www.fragrantica.com/perfume/Tom-Ford/Noir-Extreme-29675.html"),
@@ -166,6 +166,12 @@ const perfumes = [
     new Perfume(151, "Hundred Silent Ways", "Nishane", "Unisex", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/Nishane/Hundred-Silent-Ways-37602.html"),
     new Perfume(152, "Mefisto", "Xerjoff", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Xerjoff/Mefisto-6310.html"),
     new Perfume(153, "Beach Walk", "Maison Margiela", "Mujer", "Floral", "Dulce", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Beach-Walk-15261.html"),
+    new Perfume(154, "English Pear & Freesia", "Jo Malone", "Mujer", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Jo-Malone-London/English-Pear-Freesia-10314.html"),
+    new Perfume(155, "Fig & Lotus Flower", "Jo Malone", "Unisex", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Jo-Malone-London/Fig-Lotus-Flower-61929.html"),
+    new Perfume(156, "Mimosa & Cardamom", "Jo Malone", "Unisex", "Floral", "Calido especiado", "https://www.fragrantica.es/perfume/Jo-Malone-London/Mimosa-Cardamom-31825.html"),
+    new Perfume(157, "Yuja Cologne", "Jo Malone", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Jo-Malone-London/Yuja-Cologne-60484.html"),
+    new Perfume(158, "Another 13", "Le Labo", "Unisex", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Le-Labo/Another-13-10131.html"),
+    new Perfume(159, "Rose 31", "Le Labo", "Unisex", "Floral", "Amaderado", "https://www.fragrantica.es/perfume/Le-Labo/Rose-31-3678.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -30,7 +30,7 @@ const perfumes =[
     new Perfume(16, "Opium", "Yves Saint Laurent", "Ambarado", "Calido especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Opium-Eau-de-Parfum-2009-7399.html"),
     new Perfume(17, "Lou Lou", "Cacharel", "Atalcado", "Ambarado", "https://www.fragrantica.es/perfume/Cacharel/LouLou-1276.html"),
     new Perfume(18, "Eden", "Cacharel", "Floral blanco", "Verde", "https://www.fragrantica.es/perfume/Cacharel/Eden-244.html"),
-    new Perfume(19, "Anaís Anaís", "Cacharel", "Floral blanco", "Atalcado", "https://www.fragrantica.es/perfume/Cacharel/Anais-Anais-236.html", "sold"),
+    new Perfume(19, "Anaís Anaís", "Cacharel", "Floral blanco", "Atalcado", "https://www.fragrantica.es/perfume/Cacharel/Anais-Anais-236.html"),
     new Perfume(20, "Hugo Woman", "Hugo Boss", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Hugo-Boss/Hugo-Woman-380.html"),
     new Perfume(21, "Black Opium", "Yves Saint Laurent", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Black-Opium-25324.html"),
     new Perfume(22, "O", "Lancome", "Citrico", "Verde", "https://www.fragrantica.es/perfume/Lancome/O-de-Lancome-187.html"),
@@ -74,7 +74,7 @@ const perfumes =[
     new Perfume(60, "Lady Million", "Rabanne", "Floral blanco", "Dulce", "https://www.fragrantica.es/perfume/Rabanne/Lady-Million-9045.html"),
     new Perfume(61, "Good Girl", "Carolina Herrera", "Dulce", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Good-Girl-39681.html"),
     new Perfume(62, "212 VIP", "Carolina Herrera", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-VIP-10126.html"),
-    new Perfume(63, "Tresor Midnight Rose", "Lancome", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Lancome/Tresor-Midnight-Rose-11721.html", "sold"),
+    new Perfume(63, "Tresor Midnight Rose", "Lancome", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Lancome/Tresor-Midnight-Rose-11721.html"),
     new Perfume(64, "Eilish", "Billie Eilish", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Billie-Eilish/Eilish-70052.html"),
     new Perfume(65, "Yes I Am", "Cacharel", "Dulce", "Calido especiado", "https://www.fragrantica.es/perfume/Cacharel/Yes-I-Am-48112.html"),
     new Perfume(66, "Coco Mademoiselle", "Chanel", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Chanel/Coco-Mademoiselle-611.html"),
@@ -86,7 +86,7 @@ const perfumes =[
     new Perfume(72, "Lolita Lempicka", "Lolita Lempicka", "Dulce", "Fresco especiado", "https://www.fragrantica.es/perfume/Lolita-Lempicka/Lolita-Lempicka-456.html"),
     new Perfume(73, "Kenzo Amour", "Kenzo", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/Kenzo/Kenzo-Amour-664.html"),
     new Perfume(74, "DKNY Be Delicious", "Donna Karan", "Frutal", "Citrico", "https://www.fragrantica.es/perfume/Donna-Karan/DKNY-Be-Delicious-498.html"),
-    new Perfume(75, "Armani Code", "Giorgio Armani", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Code-for-Women-413.html", "sold"),
+    new Perfume(75, "Armani Code", "Giorgio Armani", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Giorgio-Armani/Armani-Code-for-Women-413.html"),
     new Perfume(76, "Hypnose", "Lancome", "Avainillado", "Floral", "https://www.fragrantica.es/perfume/Lancome/Hypnose-170.html"),
     new Perfume(77, "La Vie Est Belle", "Lancome", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Lancome/La-Vie-Est-Belle-14982.html"),
     new Perfume(78, "Pure XS", "Rabanne", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Rabanne/Pure-XS-For-Her-51424.html",),
@@ -125,7 +125,7 @@ const perfumes =[
     new Perfume(111, "Angel Nova", "Mugler", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Mugler/Angel-Nova-61519.html"),
     new Perfume(112, "Million Gold", "Rabanne", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Rabanne/Million-Gold-For-Her-95640.html"),
     new Perfume(113, "Green Stravaganza", "Valentino", "Floral blanco", "Avainillado", "https://www.fragrantica.es/perfume/Valentino/Valentino-Donna-Born-in-Roma-Green-Stravaganza-88988.html", "sold"),
-    new Perfume(114, "Very Good Girl", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/Very-Good-Girl-65560.html"),
+    new Perfume(114, "Very Good Girl", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/Very-Good-Girl-65560.html", "sold"),
     new Perfume(115, "La Vie est Belle L'Elixir", "Lancome", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lancome/La-Vie-est-Belle-L-Elixir-95856.html"),
     new Perfume(116, "Aura", "Mugler", "Verde", "Amaderado", "https://www.fragrantica.es/perfume/Mugler/Aura-Mugler-45639.html"),
     new Perfume(117, "Gloria", "Cacharel", "Frutal", "Avainillado", "https://www.fragrantica.es/perfume/Cacharel/Gloria-246.html"),
@@ -150,6 +150,7 @@ const perfumes =[
     new Perfume(136, "La Bomba", "Carolina Herrera", "Frutal", "Floral", "https://www.fragrantica.es/perfume/Carolina-Herrera/La-Bomba-105931.html"),
     new Perfume(137, "Flowerbomb", "Viktor & Rolf", "Floral blanco", "Floral", "https://www.fragrantica.es/perfume/Viktor-Rolf/Flowerbomb-1460.html"),
     new Perfume(138, "Dylan Purple", "Versace", "Afrutado", "Floral", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Femme-Dylan-Purple-76274.html"),
+    new Perfume(139, "Sweet Tooth Caramel Dream", "Sabrina Carpenter", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Caramel-Dream-84095.html"),
 ]
 
 
