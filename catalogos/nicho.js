@@ -172,6 +172,7 @@ const perfumes = [
     new Perfume(157, "Yuja Cologne", "Jo Malone", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Jo-Malone-London/Yuja-Cologne-60484.html"),
     new Perfume(158, "Another 13", "Le Labo", "Unisex", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Le-Labo/Another-13-10131.html"),
     new Perfume(159, "Rose 31", "Le Labo", "Unisex", "Floral", "Amaderado", "https://www.fragrantica.es/perfume/Le-Labo/Rose-31-3678.html"),
+    new Perfume(160, "Vanille Absolu", "Montale", "Unisex", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Montale/Vanille-Absolu-4064.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
