@@ -78,7 +78,7 @@ const perfumes =[
     new Perfume(64, "Eilish", "Billie Eilish", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Billie-Eilish/Eilish-70052.html"),
     new Perfume(65, "Yes I Am", "Cacharel", "Dulce", "Calido especiado", "https://www.fragrantica.es/perfume/Cacharel/Yes-I-Am-48112.html"),
     new Perfume(66, "Coco Mademoiselle", "Chanel", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Chanel/Coco-Mademoiselle-611.html"),
-    new Perfume(67, "Ralph Hot", "Ralph Lauren", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Ralph-Lauren/Ralph-Hot-1898.html", "sold"),
+    new Perfume(67, "Ralph Hot", "Ralph Lauren", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Ralph-Lauren/Ralph-Hot-1898.html"),
     new Perfume(68, "My Way Nectar", "Giorgio Armani", "Citrico", "Floral", "https://www.fragrantica.es/perfume/Giorgio-Armani/My-Way-Nectar-88938.html"),
     new Perfume(69, "Scandal", "Jean Paul Gaultier", "Dulce", "Ambarado", "https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Scandal-45651.html"),
     new Perfume(70, "Cheap & Chic I Love Love", "Moschino", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Moschino/Cheap-Chic-I-Love-Love-728.html"),

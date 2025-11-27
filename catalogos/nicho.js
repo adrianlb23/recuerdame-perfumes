@@ -70,7 +70,7 @@ const perfumes = [
     new Perfume(55, "Pegasus", "Parfums de Marly", "Hombre", "Avainillado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Pegasus-16938.html"),
     new Perfume(56, "Ege", "Nishane", "Unisex", "Verde", "Fresco especiado", "https://www.fragrantica.es/perfume/Nishane/EGE-AIGAIO-64092.html"),
     new Perfume(57, "Bitter Peach", "Tom Ford", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tom-Ford/Bitter-Peach-62707.html"),
-    new Perfume(58, "Absolu Aventus", "Creed", "Hombre", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Creed/Absolu-Aventus-84112.html"),
+    new Perfume(58, "Absolu Aventus", "Creed", "Hombre", "Citrico", "Fresco especiado", "https://www.fragrantica.es/perfume/Creed/Absolu-Aventus-84112.html", "sold"),
     new Perfume(59, "By The Fireplace", "Maison Martin Margiela", "Unisex", "Amaderado", "Avainillado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/By-the-Fireplace-31623.html"),
     new Perfume(60, "Kirke", "Tiziana Terenzi", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Tiziana-Terenzi/Kirke-32172.html"),
     new Perfume(61, "Cedrat Boise", "Mancera", "Unisex", "Amaderado", "Frutal", "https://www.fragrantica.es/perfume/Mancera/Cedrat-Boise-15211.html"),
@@ -109,7 +109,7 @@ const perfumes = [
     new Perfume(94, "Ombre Nomade", "Louis Vuitton", "Unisex", "Calido especiado", "Amaderado", "https://www.fragrantica.com/perfume/Louis-Vuitton/Ombre-Nomade-49755.html"),
     new Perfume(95, "Hadar", "Spirit of Kings", "Unisex", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Spirit-Of-Kings/Hadar-58238.html"),
     new Perfume(96, "Perseus", "Parfums de Marly", "Hombre", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Perseus-90199.html"),
-    new Perfume(97, "Summer Hammer", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lorenzo-Pazzaglia/Summer-Hammer-81476.html"),
+    new Perfume(97, "Summer Hammer", "Lorenzo Pazzaglia", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Lorenzo-Pazzaglia/Summer-Hammer-81476.html", "sold"),
     new Perfume(98, "Grand Soir", "Maison Francis Kurkdjian", "Unisex", "Ambarado", "Dulce", "https://www.fragrantica.es/perfume/Maison-Francis-Kurkdjian/Grand-Soir-40816.html"),
     new Perfume(99, "Jazz Club", "Maison Martin Margiela", "Hombre", "Tabaco", "Dulce", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Jazz-Club-20541.html"),
     new Perfume(100, "Torino 22", "Xerjoff", "Unisex", "Citrico", "Aromático", "https://www.fragrantica.es/perfume/Xerjoff/Torino22-77059.html"),
@@ -134,7 +134,7 @@ const perfumes = [
     new Perfume(119, "Coffee Break", "Maison Martin Margiela", "Unisex", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Maison-Martin-Margiela/Coffee-Break-55926.html"),
     new Perfume(120, "Erba Gold", "Xerjoff", "Unisex", "Citrico", "Afrutado", "https://www.fragrantica.es/perfume/Xerjoff/Erba-Gold-76683.html"),
     new Perfume(121, "Noir Extreme", "Tom Ford", "Hombre", "Calido especiado", "Dulce", "https://www.fragrantica.com/perfume/Tom-Ford/Noir-Extreme-29675.html"),
-    new Perfume(122, "Tribeca", "Bond No. 9", "Unisex", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Bond-No-9/TriBeCa-59904.html"),
+    new Perfume(122, "Tribeca", "Bond No. 9", "Unisex", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Bond-No-9/TriBeCa-59904.html", "sold"),
     new Perfume(123, "The Tragedy of Lord George", "Penhaligon’s", "Hombre", "Amaderado", "Ambarado", "https://www.fragrantica.es/perfume/Penhaligon-s/The-Tragedy-of-Lord-George-40716.html"),
     new Perfume(124, "Centaurus", "Creed", "Unisex", "Calido especiado", "Ambarado", "https://www.fragrantica.es/perfume/Creed/Centaurus-95601.html"),
     new Perfume(125, "Eden Sparkling Lychee", "Kayali", "Mujer", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Kayali-Fragrances/Eden-Sparkling-Lychee-39-Eau-de-Parfum-88197.html", "sold"),
@@ -173,6 +173,8 @@ const perfumes = [
     new Perfume(158, "Another 13", "Le Labo", "Unisex", "Ambarado", "Amaderado", "https://www.fragrantica.es/perfume/Le-Labo/Another-13-10131.html"),
     new Perfume(159, "Rose 31", "Le Labo", "Unisex", "Floral", "Amaderado", "https://www.fragrantica.es/perfume/Le-Labo/Rose-31-3678.html"),
     new Perfume(160, "Vanille Absolu", "Montale", "Unisex", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Montale/Vanille-Absolu-4064.html"),
+    new Perfume(161, "The Blazing Mr. Sam", "Penhaligon’s", "Hombre", "Tabaco", "Calido especiado", "https://www.fragrantica.es/perfume/Penhaligon-s/The-Blazing-Mr-Sam-50255.html"),
+    new Perfume(162, "Lamar", "Kajal", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Kajal/Lamar-62571.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
