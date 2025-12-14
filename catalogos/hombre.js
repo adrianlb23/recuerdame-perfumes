@@ -172,7 +172,7 @@ const perfumes =[
     new Perfume(157, "Le Male Elixir Absolu", "Jean Paul Gaultier", "Dulce", "Calido especiado","https://www.fragrantica.es/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-Absolu-101529.html"),
     new Perfume(158, "Stronger With You Parfum", "Giorgio Armani", "Avainillado", "Aromatico","https://www.fragrantica.es/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Parfum-100895.html"),
     new Perfume(159, "Impact", "Tommy Hilfiger", "Amaderado", "Citrico","https://www.fragrantica.es/perfume/Tommy-Hilfiger/Impact-59835.html"),
-    new Perfume(160, "Eros Energy", "Versace", "Citrico", "Citrico","https://www.fragrantica.es/perfume/Versace/Eros-Energy-92647.html", "sold"),
+    new Perfume(160, "Eros Energy", "Versace", "Citrico", "Citrico","https://www.fragrantica.es/perfume/Versace/Eros-Energy-92647.html"),
     new Perfume(161, "The Most Wanted EDP Intense", "Azzaro", "Calido especiado", "Dulce","https://www.fragrantica.es/perfume/Azzaro/The-Most-Wanted-66826.html"),
     new Perfume(162, "L'Homme Intense", "Prada", "Floral", "Ambarado", "https://www.fragrantica.es/perfume/Prada/Prada-L-Homme-Intense-45396.html"),
     new Perfume(163, "Wanted by Night", "Azzaro", "Calido especiado", "Frutal", "https://www.fragrantica.es/perfume/Azzaro/Wanted-by-Night-49144.html",),
@@ -194,6 +194,7 @@ const perfumes =[
     new Perfume(179, "MYSLF Le Parfum", "Yves Saint Laurent", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/MYSLF-Le-Parfum-94983.html"),
     new Perfume(180, "Dior Homme Parfum 2025", "Dior", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Dior/Dior-Homme-Parfum-2025-101016.html"),
     new Perfume(181, "Bad Boy Elixir", "Carolina Herrera", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Bad-Boy-Elixir-101597.html"),
+    new Perfume(183, "Oddysey Mandarin Sky", "Armaf", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Armaf/Odyssey-Mandarin-Sky-83132.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
