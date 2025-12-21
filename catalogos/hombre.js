@@ -76,7 +76,8 @@ const perfumes =[
     new Perfume(59, "Xerius Rouge", "Givenchy", "Amaderado", "Aromatico", "https://www.fragrantica.es/perfume/Givenchy/Xeryus-Rouge-862.html"),
     new Perfume(60, "L'Eau D'Issey", "Issey Miyake", "Citrico", "Aromatico", "https://www.fragrantica.es/perfume/Issey-Miyake/L-Eau-d-Issey-Pour-Homme-721.html"),
     new Perfume(61, "Sauvage", "Dior", "Fresco especiado", "Ambarado", "https://www.fragrantica.es/perfume/Dior/Sauvage-31861.html"),
-    new Perfume(63, "212 VIP", "Carolina Herrera", "Ambarado", "Aromatico", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-VIP-Men-12865.html"),
+    new Perfume(62, "212 VIP", "Carolina Herrera", "Ambarado", "Aromatico", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-VIP-Men-12865.html"),
+    new Perfume(63, "Minotaure", "Paloma Picasso", "Avainillado", "Aromatico", "https://www.fragrantica.es/perfume/Paloma-Picasso/Minotaure-1695.html"),
     new Perfume(64, "CH", "Carolina Herrera", "Avainillado", "Dulce", "https://www.fragrantica.es/perfume/Carolina-Herrera/CH-Men-6759.html"),
     new Perfume(65, "Club De Nuit Intense", "Armaf", "Frutal", "Citrico", "https://www.fragrantica.es/perfume/Armaf/Club-de-Nuit-Intense-Man-34696.html"),
     new Perfume(66, "Invictus", "Rabanne", "Marino", "Citrico", "https://www.fragrantica.es/perfume/Rabanne/Invictus-18471.html"),
@@ -88,6 +89,7 @@ const perfumes =[
     new Perfume(72, "Acqua Di Gio Profumo", "Giorgio Armani", "Marino", "Amaderado", "https://www.fragrantica.es/perfume/Giorgio-Armani/Acqua-di-Gio-Profumo-29727.html"),
     new Perfume(73, "Hugo Red", "Hugo Boss", "Frutal", "Amaderado", "https://www.fragrantica.es/perfume/Hugo-Boss/Hugo-Red-17157.html"),
     new Perfume(74, "Light Blue", "Dolce & Gabbana", "Fresco especiado", "Citrico", "https://www.fragrantica.es/perfume/Dolce-Gabbana/Light-Blue-pour-Homme-1068.html"),
+    new Perfume(75, "Obsession", "Calvin Klein", "Ambarado", "Cálido especiado", "https://www.fragrantica.es/perfume/Calvin-Klein/Obsession-248.html"),
     new Perfume(76, "L12 12 Blanc", "Lacoste", "Aromatico", "Citrico", "https://www.fragrantica.es/perfume/Lacoste-Fragrances/Eau-de-Lacoste-L-12-12-White-11043.html"),
     new Perfume(77, "212 VIP Black", "Carolina Herrera", "Aromatico", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/212-VIP-Black-46093.html"),
     new Perfume(78, "Terre D’Hermes", "Hermès", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Hermes/Terre-d-Hermes-17.html", "sold"),
@@ -194,7 +196,9 @@ const perfumes =[
     new Perfume(179, "MYSLF Le Parfum", "Yves Saint Laurent", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/MYSLF-Le-Parfum-94983.html"),
     new Perfume(180, "Dior Homme Parfum 2025", "Dior", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Dior/Dior-Homme-Parfum-2025-101016.html"),
     new Perfume(181, "Bad Boy Elixir", "Carolina Herrera", "Calido especiado", "Amaderado", "https://www.fragrantica.es/perfume/Carolina-Herrera/Bad-Boy-Elixir-101597.html"),
+    new Perfume(182, "Only the Brave", "Diesel", "Citrico", "Ambarado", "https://www.fragrantica.es/perfume/Diesel/Only-The-Brave-5532.html"),
     new Perfume(183, "Oddysey Mandarin Sky", "Armaf", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Armaf/Odyssey-Mandarin-Sky-83132.html"),
+    new Perfume(184, "Versace Oud Noir", "Versace", "Amaderado", "Cálido especiado", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Homme-Oud-Noir-17338.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

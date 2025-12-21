@@ -96,7 +96,7 @@ const perfumes = [
     new Perfume(81, "Babycat", "Yves Saint Laurent", "Unisex", "Avainillado", "Fresco especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Babycat-73149.html"),
     new Perfume(82, "Tobacco Mandarin", "Byredo", "Unisex", "Fresco especiado", "Tabaco", "https://www.fragrantica.es/perfume/Byredo/Tobacco-Mandarin-63031.html"),
     new Perfume(83, "Kalan", "Parfums de Marly", "Unisex", "Calido especiado", "Aromático", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Kalan-56036.html"),
-    new Perfume(84, "Intense Café", "Montale", "Unisex", "Floral", "Avainillado", "https://www.fragrantica.es/perfume/Montale/Intense-Cafe-18021.html", "sold"),
+    new Perfume(84, "Blue Talisman", "Ex Nihilo", "Unisex", "Citrico", "Frutal", "https://www.fragrantica.es/perfume/Ex-Nihilo/Blue-Talisman-84224.html", "sold"),
     new Perfume(85, "Delina Exclusif", "Parfums de Marly", "Mujer", "Floral", "Frutal", "https://www.fragrantica.es/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"),
     new Perfume(86, "Milk", "Commodity", "Unisex", "Dulce", "Amaderado", "https://www.fragrantica.es/perfume/Commodity/Milk-69191.html"),
     new Perfume(87, "Fico Di Amalfi", "Acqua Di Parma", "Unisex", "Citrico", "Amaderado", "https://www.fragrantica.es/perfume/Acqua-di-Parma/Acqua-di-Parma-Blu-Mediterraneo-Fico-di-Amalfi-1687.html"),

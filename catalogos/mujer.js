@@ -151,6 +151,7 @@ const perfumes =[
     new Perfume(137, "Flowerbomb", "Viktor & Rolf", "Floral blanco", "Floral", "https://www.fragrantica.es/perfume/Viktor-Rolf/Flowerbomb-1460.html"),
     new Perfume(138, "Dylan Purple", "Versace", "Afrutado", "Floral", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Femme-Dylan-Purple-76274.html"),
     new Perfume(139, "Sweet Tooth Caramel Dream", "Sabrina Carpenter", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Caramel-Dream-84095.html"),
+    new Perfume(140, "Miss Dior EDP (2021)", "Dior", "Atalcado", "Avainillado", "https://www.fragrantica.es/perfume/Dior/Miss-Dior-Eau-de-Parfum-2021-68905.html"),
 ]
 
 
