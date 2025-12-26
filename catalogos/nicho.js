@@ -175,6 +175,7 @@ const perfumes = [
     new Perfume(160, "Vanille Absolu", "Montale", "Unisex", "Avainillado", "Calido especiado", "https://www.fragrantica.es/perfume/Montale/Vanille-Absolu-4064.html"),
     new Perfume(161, "The Blazing Mr. Sam", "Penhaligon’s", "Hombre", "Tabaco", "Calido especiado", "https://www.fragrantica.es/perfume/Penhaligon-s/The-Blazing-Mr-Sam-50255.html"),
     new Perfume(162, "Lamar", "Kajal", "Unisex", "Frutal", "Dulce", "https://www.fragrantica.es/perfume/Kajal/Lamar-62571.html"),
+    new Perfume(163, "Tuxedo", "Yves Saint Laurent", "Unisex", "Calido especiado", "Avainillado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Tuxedo-32269.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {

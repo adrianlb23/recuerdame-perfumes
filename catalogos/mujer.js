@@ -152,6 +152,9 @@ const perfumes =[
     new Perfume(138, "Dylan Purple", "Versace", "Afrutado", "Floral", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Femme-Dylan-Purple-76274.html"),
     new Perfume(139, "Sweet Tooth Caramel Dream", "Sabrina Carpenter", "Dulce", "Avainillado", "https://www.fragrantica.es/perfume/Sabrina-Carpenter/Sweet-Tooth-Caramel-Dream-84095.html"),
     new Perfume(140, "Miss Dior EDP (2021)", "Dior", "Atalcado", "Avainillado", "https://www.fragrantica.es/perfume/Dior/Miss-Dior-Eau-de-Parfum-2021-68905.html"),
+    new Perfume(141, "R.E.M.", "Ariana Grande", "Dulce", "Atalcado", "https://www.fragrantica.es/perfume/Dior/Miss-Dior-Eau-de-Parfum-2021-68905.html"),
+    new Perfume(142, "Miss Dior EDP (2021)", "Dior", "Atalcado", "Avainillado", "https://www.fragrantica.es/perfume/Ariana-Grande/R-E-M-62578.html"),
+    new Perfume(143, "Coral Fantasy", "Valentino", "Frutal", "Citrico", "https://www.fragrantica.es/perfume/Valentino/Valentino-Donna-Born-In-Roma-Coral-Fantasy-71760.html"),
 ]
 
 

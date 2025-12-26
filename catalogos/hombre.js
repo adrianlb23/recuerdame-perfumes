@@ -199,6 +199,8 @@ const perfumes =[
     new Perfume(182, "Only the Brave", "Diesel", "Citrico", "Ambarado", "https://www.fragrantica.es/perfume/Diesel/Only-The-Brave-5532.html"),
     new Perfume(183, "Oddysey Mandarin Sky", "Armaf", "Citrico", "Dulce", "https://www.fragrantica.es/perfume/Armaf/Odyssey-Mandarin-Sky-83132.html"),
     new Perfume(184, "Versace Oud Noir", "Versace", "Amaderado", "Cálido especiado", "https://www.fragrantica.es/perfume/Versace/Versace-Pour-Homme-Oud-Noir-17338.html"),
+    new Perfume(185, "Bleu de Chanel L'Exclusif", "Chanel", "Amaderado", "Amaderado", "https://www.fragrantica.es/perfume/Chanel/Bleu-de-Chanel-L-Exclusif-113429.html"),
+    new Perfume(186, "Y le Parfum", "Yves Saint Laurent", "Aromatico", "Fresco especiado", "https://www.fragrantica.es/perfume/Yves-Saint-Laurent/Y-Le-Parfum-64718.html"),
 ]
 
 document.addEventListener('DOMContentLoaded', () => {
